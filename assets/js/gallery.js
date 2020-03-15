@@ -6,9 +6,8 @@ $(function() {
     var gallery = $(".gallery");
 
     if(gallery.length) {
-        var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 
-        if( areClipPathShapesSupported() && !isFirefox ) {
+        if( areClipPathShapesSupported() ) {
             clipPathSupport = true;
             $('.gallery .media .img').each(function() {
                 $(this).wrap('<div class="parallax-inner-clip"></div>')
@@ -37,39 +36,25 @@ $(function() {
     });
 
     $("#inspect-result").on("mousemove", function(e){
-//        console.log(e.pageY);
-//        console.log(e.pageY);
         $( "#inspect-result .image-before" ).css({"clip-path": "inset(0 0 " + ($("body").height() - e.pageY) + "px 0)"});
     });
 
 });
 
 function placeGalleryItems(){
-	if($("body").width() > 1100){
-		var gallery = $(".gallery");
-		var gallery_w = $(".gallery .media").width();
-		if(gallery){
-			var gallery_x = $(".gallery").offset().left - $(window).scrollLeft();
-			var gallery_y = $(".gallery").offset().top - $(window).scrollTop();
-			if(clipPathSupport){
-				$(".gallery .media .img").css("left", gallery_x + "px");
-				$(".gallery .media .img").css("top", gallery_y + "px");
-			}else{
-				$(".gallery .media .img").css("background-position", gallery_x + "px " + gallery_y + "px");
-			}
-			$(".gallery .media .img").css("width", gallery_w + "px");
-
-			// WAY. TOO. SLOW.
-			// var gallery_y = gallery.offset().top - $(document).scrollTop();
-			//
-			// $(".gallery .media").css("background-attachment", "initial");
-			//
-			// $(".gallery .media").each(function(){
-			// 	var media_y = $(this).offset().top - $(document).scrollTop();
-			// 	$(this).css("background-position", "0 " + -(media_y - gallery_y) + "px");
-			// });
-		}
-	}
+    var gallery = $(".gallery");
+    var gallery_w = $(".gallery .media").width();
+    if(gallery){
+        var gallery_x = $(".gallery").offset().left - $(window).scrollLeft();
+        var gallery_y = $(".gallery").offset().top - $(window).scrollTop();
+        if(clipPathSupport){
+            $(".gallery .media .img").css("left", gallery_x + "px");
+            $(".gallery .media .img").css("top", gallery_y + "px");
+        }else{
+            $(".gallery .media .img").css("background-position", gallery_x + "px " + gallery_y + "px");
+        }
+        $(".gallery .media .img").css("width", gallery_w + "px");
+    }
 }
 
 var areClipPathShapesSupported = function () {
