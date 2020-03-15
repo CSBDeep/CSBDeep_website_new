@@ -1,0 +1,40 @@
+{% assign gallery = site.scenarios | where_exp:"item", "item.tool contains include.tool" %}
+<div class="gallery-header">
+<!--    <div class="welcome">-->
+        <h1>Gallery</h1>
+        <p>Please scroll through the image area to watch all examples.</p>
+        <ul id="gallerylinks">
+            {% for scenario in gallery %}
+            {% if scenario.inputimage %}
+            <li><a href="#{{ scenario.slug }}">{{ scenario.pretitle }} <strong>{{ scenario.shorttitle }}</strong></a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+<!--    </div>-->
+</div>
+<div class="border box gallery">
+    {% for scenario in gallery %}
+    {% if scenario.inputimage %}
+    <div class="line title">
+        <div class="box media" id="{{ scenario.slug }}">
+            <div class="parallax-inner-clip">
+                <div class="img" style="background-image: url({{ scenario.inputimage | relative_url }})"></div>
+            </div>
+        </div>
+        <div class="box nexttomedia">
+            <em>scroll to see reconstructions...</em>
+            <h3>{{ scenario.longtitle }}</h3>
+        </div>
+    </div>
+    <div class="line">
+        <div class="box media" id="{{ scenario.slug }}-res">
+            <div class="parallax-inner-clip">
+                <div class="img" style="background-image: url({{ scenario.outputimage | relative_url }})"></div>
+            </div>
+        </div>
+        <div class="box nexttomedia"><p>How was this done? Read more <a href="{{ scenario.url | prepend: site.baseurl }}">here</a>.</p></div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+</div>

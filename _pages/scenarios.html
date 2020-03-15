@@ -1,0 +1,49 @@
+---
+layout: page
+search_exclude: false
+name: scenarios
+permalink: /scenarios
+---
+This site will list scenarios where we found CSBDeep to be helpful. They can be used as a blueprint for other projects. 
+<div class="tools">
+  <div class="tools-group">
+    <div class="title">
+      <img src="{{ site.baseurl }}/images/tools-restoration.png"/>
+      Image restoration
+    </div>
+    <div class="scenarios-list">
+    {% for scenario in site.scenarios %}
+      {% assign tool = site.tools | where_exp:"item", "scenario.tool contains item.slug" %}
+      {% if tool[0].outputtype == "image" %}
+      <a href="{{ scenario.url | prepend: site.baseurl }}">
+        <span class="scenario-title">{{ scenario.longtitle }}</span>
+        <span class="scenario-input" style="background-image: url({{ scenario.inputimage | relative_url }});"></span>
+        <span class="scenario-output" style="background-image: url({{ scenario.outputimage | relative_url }});"></span>
+      </a>
+    {% endif %}
+  {% endfor %}
+    </div>
+  </div>
+
+  <div class="tools-group">
+    <div class="title">
+      <img src="{{ site.baseurl }}/images/tools-segmentation.png"/>
+      Object detection
+    </div>
+     <div class="scenarios-list">
+    {% for scenario in site.scenarios %}
+      {% assign tool = site.tools | where_exp:"item", "scenario.tool contains item.slug" %}
+      {% if tool[0].outputtype == "objects" %}
+      <a href="{{ scenario.url | prepend: site.baseurl }}">
+        <span class="scenario-title">{{ scenario.longtitle }}</span>
+        <span class="scenario-input" style="background-image: url({{ scenario.inputimage | relative_url }});"></span>
+        <span class="scenario-output" style="background-image: url({{ scenario.outputimage | relative_url }});"></span>
+      </a>
+    {% endif %}
+  {% endfor %}
+    </div>
+  </div>
+</div>
+
+Is your problem not covered here? Talk to us in case you think it might be solvable with our tools! Did you solve your problem using one of our tools?
+Let us know about it so we can add a scenario for it here and others can learn from you!

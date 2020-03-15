@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="line right">
+
+    <div class="post-content scenario">
+
+        <div class="scenario-meta">
+        {% include toolcard.html tool=page.tool %}
+        {% include scenariopreview.html scenario=page %}
+        </div>
+
+        <h1>{{ page.longtitle }}</h1>
+
+        {{ content | markdownify }}
+
+        {%- if page.videos -%}
+        <h2>Videos</h2>
+        <div class="videos">
+            {%- for video in page.videos -%}
+            {% include youtube.html content=video.url %}
+            <div class="box nexttomedia">
+            {{ video.description  | markdownify }}
+            </div>
+            <hr>
+            {%- endfor -%}
+        </div>
+        {%- endif -%}
+   </div>
+
+</div>

@@ -1,0 +1,7 @@
+{% if include.scenario.outputimage %}
+<a id="inspect-result-link" class="box boxborder" href="#">Inspect exemplary result image</a>
+<div id="inspect-result">
+    <div class="image-after" style="background-image: url({{ include.scenario.outputimage | relative_url}});"></div>
+    <div class="image-before" style="background-image: url({{ include.scenario.inputimage | relative_url}});"></div>
+</div>
+{% endif %}

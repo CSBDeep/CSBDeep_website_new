@@ -1,0 +1,13 @@
+<div class="videos">
+{% assign gallery = site.scenarios | where_exp:"item", "item.tool contains include.tool" %}
+{% for scenario in gallery %}
+{% for video in scenario.videos %}
+{% include youtube.html content=video.url %}
+{% capture description %}{{ video.description }} - More information [here]({{ scenario.url | prepend: site.baseurl }}).{% endcapture %}
+<div class="box nexttomedia">
+{{ description  | markdownify }}
+</div>
+<hr>
+{% endfor %}
+{% endfor %}
+</div>

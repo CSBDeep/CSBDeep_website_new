@@ -1,0 +1,31 @@
+---
+layout: default
+nameaslogo: true
+---
+
+{%- include toolheader.html -%}
+
+<div class="line right">
+
+   <div class="post-content">
+
+      {%- if page.showoverview -%}
+      <div class="tool-links">
+         {%- for item in layout.subpages -%}
+            <a class="icon" href="{{  item.url | relative_url }}">
+               {% if item.icon%}
+               <img src="{{  item.icon | relative_url }}"/>
+               {% endif %}
+               {{ item.title }}</a>
+         {%- endfor -%}
+      </div>
+      {%- for item in layout.howto -%}
+         <a class="howto" href="{{  item.url | relative_url }}">{{ item.title }}</a>
+         {%- endfor -%}
+      {%- endif -%}
+
+      {{ content | markdownify }}
+
+   </div>
+
+</div>

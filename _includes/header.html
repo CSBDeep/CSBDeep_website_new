@@ -1,0 +1,34 @@
+{% if page.layout == 'start' %} <div id="landingpage"></div> {% endif %}
+<div class="headergroup {% if page.layout == 'start' %}landingpage{% endif %}">
+        <header>
+            {% if page.layout != 'start' %}
+            {%- if layout.image -%}
+                <div class="wrapper" id="headerimg" style="background-image: url({{ layout.image | relative_url }})">
+            {%- else -%}
+                {%- if page.inputimage -%}
+                    <div class="wrapper" id="headerimg" style="background-image: url({{ page.inputimage | relative_url }})">
+                        <div id="headerimgsolution" style="background-image: url({{ page.outputimage | relative_url }})"></div>
+                {%- else -%}
+                    <div class="wrapper" id="headerimg" style="background-image: url({{ site.baseurl }}/images/csbdeep-home.png)">
+                {%- endif -%}
+            {%- endif -%}
+            </div>
+            {% endif %}
+        </header>
+    <div class="wrapper">
+        <div class="line firstline left">
+            <div class="box nexttomedia logobox">
+                <a href="{{  '/' | relative_url }}" class="box boxborder">
+                    <span id="logo" style="background-image: url({{ site.baseurl }}/images/logo.png)"></span>
+                    <span class="description">CSBDeep - a toolbox for deep learning in microscopy.</span>
+                </a>
+                <ul class="headerlink">
+                    {% assign category = page.url | remove_first: "/" | split: "/" | first %}
+                    <li {% if category == 'tools' %} class="active" {% endif %}><a href="{{  '/tools' | relative_url }}">Tools</a></li>
+                    <li {% if category == "scenarios" %} class="active" {% endif %}><a href="{{  '/scenarios' | relative_url }}">Scenarios</a></li>
+                    <li {% if category == "faq" %} class="active" {% endif %}><a href="{{  '/faq' | relative_url }}">Questions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

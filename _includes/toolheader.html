@@ -1,0 +1,14 @@
+<div class="box nexttomedia logobox logobox2">
+    <a href="{{  page.backlink.url | relative_url }}" class="box boxborder">
+        {%- if layout.logo -%}
+            <span id="logo" style="background-image: url({{ layout.logo | relative_url }})"></span>
+        {%- else -%}
+            {%- if layout.nameaslogo -%}
+                <span id="logo" class="nameaslogo">{{ layout.name }}</span>
+            {%- endif -%}
+        {%- endif -%}
+        <span class="description">
+        {%- if layout.description -%} {{ layout.description }} {%- endif -%}
+        </span>
+    </a>
+</div>
