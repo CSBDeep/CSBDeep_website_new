@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Credits | CSBDeep</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Credits" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A toolbox for Content-aware Image Restoration." />
+<meta property="og:description" content="A toolbox for Content-aware Image Restoration." />
+<link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/tools/care/credits" />
+<meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/tools/care/credits" />
+<meta property="og:site_name" content="CSBDeep" />
+<script type="application/ld+json">
+{"description":"A toolbox for Content-aware Image Restoration.","headline":"Credits","@type":"WebPage","url":"https://frauzufall.github.io/csbdeep-testsite/tools/care/credits","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/csbdeep-testsite/assets/css/style.css">
+  <script src="/csbdeep-testsite/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="/csbdeep-testsite/assets/js/gallery.js"></script><link type="application/atom+xml" rel="alternate" href="https://frauzufall.github.io/csbdeep-testsite/feed.xml" title="CSBDeep" /><link rel="shortcut icon" type="image/x-icon" href="/csbdeep-testsite/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Credits | CSBDeep</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Credits" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A toolbox for Content-aware Image Restoration." />
+<meta property="og:description" content="A toolbox for Content-aware Image Restoration." />
+<link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/tools/care/credits" />
+<meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/tools/care/credits" />
+<meta property="og:site_name" content="CSBDeep" />
+<script type="application/ld+json">
+{"description":"A toolbox for Content-aware Image Restoration.","headline":"Credits","@type":"WebPage","url":"https://frauzufall.github.io/csbdeep-testsite/tools/care/credits","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://frauzufall.github.io/csbdeep-testsite/feed.xml" title="CSBDeep" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    // remove paragraph tags in rendered toc (happens from notebooks)
+    var toctags = document.querySelectorAll(".toc-entry")
+    toctags.forEach(e => (e.firstElementChild.innerText = e.firstElementChild.innerText.replace('¶', '')))
+    });
+</script>
+</head><body>
+<div class="headergroup ">
+        <header>
+            <div class="wrapper" id="headerimg" style="background-image: url(/csbdeep-testsite/images/csbdeep-home.png)"></div>
+            
+        </header>
+    <div class="wrapper">
+        <div class="line firstline left">
+            <div class="box nexttomedia logobox">
+                <a href="/csbdeep-testsite/" class="box boxborder">
+                    <span id="logo" style="background-image: url(/csbdeep-testsite/images/logo.png)"></span>
+                    <span class="description">CSBDeep - a toolbox for deep learning in microscopy.</span>
+                </a>
+                <ul class="headerlink">
+                    
+                    <li  class="active" ><a href="/csbdeep-testsite/tools">Tools</a></li>
+                    <li ><a href="/csbdeep-testsite/scenarios">Scenarios</a></li>
+                    <li ><a href="/csbdeep-testsite/faq">Questions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="box nexttomedia logobox logobox2">
+    <a href="/csbdeep-testsite/tools/care/" class="box boxborder"><span id="logo" class="nameaslogo">CARE</span><span class="description">Content-aware image restoration: pushing the limits of fluorescence microscopy</span>
+    </a>
+</div><div class="line right">
+
+   <div class="post-content"><h1 id="-credits"><img src="/csbdeep-testsite/images/icons/credits_black.png" alt="" /> Credits</h1>
+
+<h2 id="related-publications">Related Publications</h2>
+
+<p>Please see the paper in <a href="http://dx.doi.org/10.1038/s41592-018-0216-7">Nature Methods</a>.
+(Preprint on <a href="https://biorxiv.org/content/early/2018/07/03/236463">bioRxiv</a>)</p>
+
+<p>Supplementary material can be downloaded <a href="https://www.biorxiv.org/highwire/filestream/109407/field_highwire_adjunct_files/0/236463-1.pdf">here</a>.</p>
+
+<h2 id="authors-and-contributors">Authors and Contributors</h2>
+
+<p>Martin Weigert [^1,2,<em>],
+Uwe Schmidt[^1,2],
+Tobias Boothe[^2],
+Andreas Müller[^8,9,10],
+Alexandr Dibrov[^1,2],
+Akanksha Jain[^2],
+Benjamin Wilhelm[^1,6],
+Deborah Schmidt[^1],
+Coleman Broaddus[^1,2],
+Siân Culley[^4,5],
+Mauricio Rocha-Martins[^1,2],
+Fabián Segovia-Miranda[^2],
+Caren Norden[^2],
+Ricardo Henriques[^4,5],
+Marino Zerial[^1,2],
+Michele Solimena[^2,8,9,10],
+Jochen Rink[^2],
+Pavel Tomancak[^2],
+Loic Royer[^1,2,7,</em>],
+Florian Jug[^1,2,*]
+&amp; Eugene W. Myers[^1,2,3]</p>
+
+<p>[^1]  Center for Systems Biology Dresden (CSBD), Dresden, Germany<br />
+[^2]  Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany<br />
+[^3]  Department of Computer Science, Technical University Dresden<br />
+[^4]  MRC Laboratory for Molecular Cell Biology, University College London, London, UK<br />
+[^5]  The Francis Crick Institute, London, UK<br />
+[^6]  University of Konstanz, Konstanz, Germany<br />
+[^7]  CZ Biohub, San Francisco, USA<br />
+[^8]  Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany<br />
+[^9]  Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany<br />
+[^10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany<br />
+[^*]  Co-corresponding authors.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>The authors want to thank Philipp Keller (Janelia) who provided Drosophila data.
+We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke Sönmez for cell culture work.
+We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B). We thank Benoit Lombardot from the Scientific Computing Facility (MPI-CBG).
+We thank the following Services and Facilities of the MPI-CBG for their support:  Computer Department, Light Microscopy Facility (LMF) and Fish Facility.
+This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II).
+M.S. was supported by the German Center for Diabetes Research (DZD e.V.).
+R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z).</p>
+
+
+   </div>
+
+</div>
+      </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

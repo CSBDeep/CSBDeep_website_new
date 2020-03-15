@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Frequently Asked Questions | CSBDeep</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Frequently Asked Questions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A toolbox for Content-aware Image Restoration." />
+<meta property="og:description" content="A toolbox for Content-aware Image Restoration." />
+<link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/faq" />
+<meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/faq" />
+<meta property="og:site_name" content="CSBDeep" />
+<script type="application/ld+json">
+{"description":"A toolbox for Content-aware Image Restoration.","headline":"Frequently Asked Questions","@type":"WebPage","url":"https://frauzufall.github.io/csbdeep-testsite/faq","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/csbdeep-testsite/assets/css/style.css">
+  <script src="/csbdeep-testsite/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="/csbdeep-testsite/assets/js/gallery.js"></script><link type="application/atom+xml" rel="alternate" href="https://frauzufall.github.io/csbdeep-testsite/feed.xml" title="CSBDeep" /><link rel="shortcut icon" type="image/x-icon" href="/csbdeep-testsite/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Frequently Asked Questions | CSBDeep</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Frequently Asked Questions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A toolbox for Content-aware Image Restoration." />
+<meta property="og:description" content="A toolbox for Content-aware Image Restoration." />
+<link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/faq" />
+<meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/faq" />
+<meta property="og:site_name" content="CSBDeep" />
+<script type="application/ld+json">
+{"description":"A toolbox for Content-aware Image Restoration.","headline":"Frequently Asked Questions","@type":"WebPage","url":"https://frauzufall.github.io/csbdeep-testsite/faq","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://frauzufall.github.io/csbdeep-testsite/feed.xml" title="CSBDeep" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    // remove paragraph tags in rendered toc (happens from notebooks)
+    var toctags = document.querySelectorAll(".toc-entry")
+    toctags.forEach(e => (e.firstElementChild.innerText = e.firstElementChild.innerText.replace('¶', '')))
+    });
+</script>
+</head><body>
+<div class="headergroup ">
+        <header>
+            <div class="wrapper" id="headerimg" style="background-image: url(/csbdeep-testsite/images/csbdeep-home.png)"></div>
+            
+        </header>
+    <div class="wrapper">
+        <div class="line firstline left">
+            <div class="box nexttomedia logobox">
+                <a href="/csbdeep-testsite/" class="box boxborder">
+                    <span id="logo" style="background-image: url(/csbdeep-testsite/images/logo.png)"></span>
+                    <span class="description">CSBDeep - a toolbox for deep learning in microscopy.</span>
+                </a>
+                <ul class="headerlink">
+                    
+                    <li ><a href="/csbdeep-testsite/tools">Tools</a></li>
+                    <li ><a href="/csbdeep-testsite/scenarios">Scenarios</a></li>
+                    <li  class="active" ><a href="/csbdeep-testsite/faq">Questions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Frequently Asked Questions</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+
+<h2 id="what-is-training">What is training?</h2>
+<p>Artificial neural networks are designed to solve specific tasks, like denoising an image or segmenting cells. Networks need to be trained. The training process includes feeding data into the network. The network will then learn characteristics of the input and it’s weights will iteratively be adjusted to solve the problem specific to the provided input data.</p>
+
+<h2 id="what-is-prediction">What is prediction?</h2>
+<p>A trained network can be used to guess the solution for a specific input. It does not need to be the same data which was used for training, but the network can return unexpected results if the input data varies too much from the training data. While training takes hours to complete, prediction is much faster.</p>
+
+<h2 id="i-dont-want-to-train">I don’t want to train.</h2>
+<p>Me neither! But chances are high this will strongly improve the quality of the result and will avoid cases where a network predicts reasonable looking data which has nothing to do with reality. This is a serious risk of using artificial neural networks.</p>
+
+<p>Some networks are trained on a wide range of data and can be generally useful. Or someone else has capacities to train a network on the type of images you want to apply prediction onto.
+These trained networks can be shared distributed to others e.g. as ZIP files.</p>
+
+<h2 id="how-do-i-know-if-a-pretrained-network-will-solve-my-problem">How do I know if a pretrained network will solve my problem?</h2>
+
+<h2 id="i-made-something-new-based-on-csbdeep">I made something new based on CSBDeep!</h2>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FAQ | CSBDeep</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="FAQ" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A toolbox for Content-aware Image Restoration." />
+<meta property="og:description" content="A toolbox for Content-aware Image Restoration." />
+<link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq" />
+<meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq" />
+<meta property="og:site_name" content="CSBDeep" />
+<script type="application/ld+json">
+{"description":"A toolbox for Content-aware Image Restoration.","headline":"FAQ","@type":"WebPage","url":"https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/csbdeep-testsite/assets/css/style.css">
+  <script src="/csbdeep-testsite/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="/csbdeep-testsite/assets/js/gallery.js"></script><link type="application/atom+xml" rel="alternate" href="https://frauzufall.github.io/csbdeep-testsite/feed.xml" title="CSBDeep" /><link rel="shortcut icon" type="image/x-icon" href="/csbdeep-testsite/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FAQ | CSBDeep</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="FAQ" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A toolbox for Content-aware Image Restoration." />
+<meta property="og:description" content="A toolbox for Content-aware Image Restoration." />
+<link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq" />
+<meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq" />
+<meta property="og:site_name" content="CSBDeep" />
+<script type="application/ld+json">
+{"description":"A toolbox for Content-aware Image Restoration.","headline":"FAQ","@type":"WebPage","url":"https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://frauzufall.github.io/csbdeep-testsite/feed.xml" title="CSBDeep" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    // remove paragraph tags in rendered toc (happens from notebooks)
+    var toctags = document.querySelectorAll(".toc-entry")
+    toctags.forEach(e => (e.firstElementChild.innerText = e.firstElementChild.innerText.replace('¶', '')))
+    });
+</script>
+</head><body>
+<div class="headergroup ">
+        <header>
+            <div class="wrapper" id="headerimg" style="background-image: url(/csbdeep-testsite/images/n2v/header.jpg)"></div>
+            
+        </header>
+    <div class="wrapper">
+        <div class="line firstline left">
+            <div class="box nexttomedia logobox">
+                <a href="/csbdeep-testsite/" class="box boxborder">
+                    <span id="logo" style="background-image: url(/csbdeep-testsite/images/logo.png)"></span>
+                    <span class="description">CSBDeep - a toolbox for deep learning in microscopy.</span>
+                </a>
+                <ul class="headerlink">
+                    
+                    <li  class="active" ><a href="/csbdeep-testsite/tools">Tools</a></li>
+                    <li ><a href="/csbdeep-testsite/scenarios">Scenarios</a></li>
+                    <li ><a href="/csbdeep-testsite/faq">Questions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="box nexttomedia logobox logobox2">
+    <a href="/csbdeep-testsite/tools/n2v/" class="box boxborder"><span id="logo" class="nameaslogo">N2V</span><span class="description">Learning Denoising from Single Noisy Images</span>
+    </a>
+</div><div class="line right">
+
+   <div class="post-content"><h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+
+<h2 id="how-long-do-i-have-to-train">How long do I have to train?</h2>
+<p>Longer. 100 sepochs with 300 steps each for example.</p>
+
+<h2 id="how-much-data-do-i-need-for-training">How much data do I need for training?</h2>
+<p>Don’t go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, … The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the “train on folder” command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation.</p>
+
+<h2 id="what-about-sem--tem--cmos">What about SEM / TEM / CMOS?</h2>
+
+<h2 id="do-training-and-test-data-need-to-be-of-the-same-dimensions">Do training and test data need to be of the same dimensions?</h2>
+<p>No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it’ll split them up again into batches internally.</p>
+
+
+   </div>
+
+</div>
+      </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
