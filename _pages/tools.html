@@ -4,16 +4,11 @@ search_exclude: false
 permalink: /tools
 ---
 
-This site will help you navigate through the existing tools build with CSBDeep.
+Tools available within CSBDeep:
 <div class="tools">
   <div class="tools-group">
-    <div class="title">
-      <img src="{{ site.baseurl }}/images/tools-restoration.png"/>
-      Image restoration
-    </div>
     <div class="tools-list">
   {% for tool in site.tools %}
-    {% if tool.outputtype == "image" %}
       <a href="{{ tool.url | prepend: site.baseurl }}">
         <span class="tool-title">{{ tool.name }}</span>
         <span class="tool-teaser" style="background-image: url({{ tool.teaser | relative_url }});"></span>
@@ -23,24 +18,6 @@ This site will help you navigate through the existing tools build with CSBDeep.
   {% endfor %}
     </div>
   </div>
-
-  <div class="tools-group">
-    <div class="title">
-      <img src="{{ site.baseurl }}/images/tools-segmentation.png"/>
-      Object detection
-    </div>
-    <div class="tools-list">
-    {% for tool in site.tools %}
-      {% if tool.outputtype == "objects" %}
-      <a href="{{ tool.url | prepend: site.baseurl }}">
-        <span class="tool-title">{{ tool.name }}</span>
-        <span class="tool-teaser" style="background-image: url({{ tool.teaser | relative_url }});"></span>
-        <span class="tool-training-description"><strong>Training data: </strong> {{ tool.trainingdata }}</span>
-      </a>
-      {% endif %}
-    {% endfor %}
-    </div>
-  </div>
 </div>
 
-Are you the author of a tool based on CSBDeep and want to add it here? Let us know!
+Ideas for tools we should include in CSBDeep? Let us know here...
