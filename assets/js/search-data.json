@@ -138,7 +138,7 @@
   
       ,"page15": {
           "title": "",
-          "content": "This site will help you navigate through the existing tools build with CSBDeep. . Image restoration {% for tool in site.tools %} {% if tool.outputtype == &quot;image&quot; %} {{ tool.name }} Training data: {{ tool.trainingdata }} {% endif %} {% endfor %} Object detection {% for tool in site.tools %} {% if tool.outputtype == &quot;objects&quot; %} {{ tool.name }} Training data: {{ tool.trainingdata }} {% endif %} {% endfor %} Are you the author of a tool based on CSBDeep and want to add it here? Let us know! .",
+          "content": "Tools available within CSBDeep: . {% for tool in site.tools %} {{ tool.name }} Training data: {{ tool.trainingdata }} {% endfor %} Ideas for tools we should include in CSBDeep? Let us know here… .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/tools",
           "relUrl": "/tools",
           "date": ""
@@ -148,10 +148,10 @@
 
   
       ,"page16": {
-          "title": "Using N2V in Fiji",
-          "content": "Using N2V in Fiji .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/usage-fiji",
-          "relUrl": "/tools/n2v/usage-fiji",
+          "title": "Using CARE in Fiji",
+          "content": "Using CARE networks in Fiji .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/usage-fiji",
+          "relUrl": "/tools/care/usage-fiji",
           "date": ""
       }
       
@@ -159,10 +159,10 @@
 
   
       ,"page17": {
-          "title": "Using CARE in Fiji",
-          "content": "Using CARE networks in Fiji .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/usage-fiji",
-          "relUrl": "/tools/care/usage-fiji",
+          "title": "Using N2V in Fiji",
+          "content": "Using N2V in Fiji .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/usage-fiji",
+          "relUrl": "/tools/n2v/usage-fiji",
           "date": ""
       }
       
@@ -203,10 +203,10 @@
 
   
       ,"page21": {
-          "title": "Using CARE in Python",
-          "content": "Using CARE networks in Python .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/usage-python",
-          "relUrl": "/tools/care/usage-python",
+          "title": "Using N2V in Python",
+          "content": "Using N2V in Python .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/usage-python",
+          "relUrl": "/tools/n2v/usage-python",
           "date": ""
       }
       
@@ -214,10 +214,10 @@
 
   
       ,"page22": {
-          "title": "Using N2V in Python",
-          "content": "Using N2V in Python .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/usage-python",
-          "relUrl": "/tools/n2v/usage-python",
+          "title": "Using CARE in Python",
+          "content": "Using CARE networks in Python .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/usage-python",
+          "relUrl": "/tools/care/usage-python",
           "date": ""
       }
       
