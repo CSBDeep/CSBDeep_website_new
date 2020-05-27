@@ -3,7 +3,8 @@ slug: n2v
 name: Noise2Void
 layout: toolpage-n2v
 outputtype: image
-trainingdata: "Single noisy images."
+trainingdata: "Only noisy images."
+purpose: "Image restoration."
 teaser: images/n2v/n2v-teaser.jpg
 showoverview: true
 ---
