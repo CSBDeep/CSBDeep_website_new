@@ -5,6 +5,7 @@ showoverview: true
 title: ""
 name: CARE
 trainingdata: "Matching image pairs."
+purpose: "Image restoration."
 outputtype: image
 teaser: images/csbdeep-teaser.jpg
 ---
