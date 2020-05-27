@@ -5,6 +5,7 @@ title: ""
 layout: toolpage-stardist
 outputtype: objects
 trainingdata: "Matching pairs of raw data and segmented data."
+purpose: "Object detection."
 teaser: images/stardist_overview.png
 ---
 
