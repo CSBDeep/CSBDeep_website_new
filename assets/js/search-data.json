@@ -106,7 +106,7 @@
   
       ,"page9": {
           "title": "Gallery",
-          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising Planaria | Denoising Trobium | Isonet Retina | Reconstr. of Microtubules | Projection Flywing | . scroll to see reconstructions... Planaria 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Tribolium 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Retina Isotropic Reconstruction . How was this done? Read more here. . scroll to see reconstructions... Microtubules Deconvolution . How was this done? Read more here. . scroll to see reconstructions... Flywing Surface Projection . How was this done? Read more here. .",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising CryoEM | Denoising Planaria | Denoising Trobium | Isonet Retina | Reconstr. of Microtubules | Projection Flywing | . scroll to see reconstructions... CryoEM Denoising . How was this done? Read more here. . scroll to see reconstructions... Planaria 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Tribolium 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Retina Isotropic Reconstruction . How was this done? Read more here. . scroll to see reconstructions... Microtubules Deconvolution . How was this done? Read more here. . scroll to see reconstructions... Flywing Surface Projection . How was this done? Read more here. .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/gallery",
           "relUrl": "/tools/care/gallery",
           "date": ""
