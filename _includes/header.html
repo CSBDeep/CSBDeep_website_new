@@ -9,7 +9,7 @@
                     <div class="wrapper" id="headerimg" style="background-image: url({{ page.inputimage | relative_url }})">
                         <div id="headerimgsolution" style="background-image: url({{ page.outputimage | relative_url }})"></div>
                 {%- else -%}
-                    <div class="wrapper" id="headerimg" style="background-image: url({{ site.baseurl }}/images/csbdeep-home.png)">
+                    <div class="wrapper" id="headerimg">
                 {%- endif -%}
             {%- endif -%}
             </div>
@@ -24,10 +24,11 @@
                 </a>
                 <ul class="headerlink">
                     {% assign category = page.url | remove_first: "/" | split: "/" | first %}
-                    <li {% if category == 'tools' %} class="active" {% endif %}><a href="{{  '/tools' | relative_url }}">Tools</a></li>
-                    <li {% if category == "scenarios" %} class="active" {% endif %}><a href="{{  '/scenarios' | relative_url }}">Scenarios</a></li>
+                    <li {% if category == "scenarios" %} class="active" {% endif %}><a href="{{  '/scenarios' | relative_url }}">What can I do with my data?</a></li>
+                    <li {% if category == 'tools' %} class="active" {% endif %}><a href="{{  '/tools' | relative_url }}">Available tools</a></li>
                     <li {% if category == "faq" %} class="active" {% endif %}><a href="{{  '/faq' | relative_url }}">Questions</a></li>
                 </ul>
+                <div class="contact"><a href="{{  '/contact' | relative_url }}">Contact</a><a href="{{  '/impressum' | relative_url }}">Impressum</a></div>
             </div>
         </div>
     </div>

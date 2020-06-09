@@ -12,11 +12,12 @@ Tools available within CSBDeep:
       <a href="{{ tool.url | prepend: site.baseurl }}">
         <span class="tool-title">{{ tool.name }}</span>
         <span class="tool-teaser" style="background-image: url({{ tool.teaser | relative_url }});"></span>
+        <span class="meta"">
         <span class="tool-training-description"><strong>Training data: </strong> {{ tool.trainingdata }}</span>
+        <span class="tool-training-description"><strong>Purpose: </strong> {{ tool.purpose }}</span>
+        </span>
       </a>
   {% endfor %}
     </div>
   </div>
 </div>
-
-Ideas for tools we should include in CSBDeep? Let us know here...

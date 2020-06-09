@@ -2,7 +2,7 @@
 slug: "projectionflywing"
 pretitle: "Projection"
 shorttitle: "Flywing"
-longtitle: "Surface Projection (Flywing)"
+longtitle: "Flywing Surface Projection"
 inputimage: "images/care/projection/projection_flywing_magma_input.png"
 outputimage: "images/care/projection/projection_flywing_magma_network.png"
 tool: care

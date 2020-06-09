@@ -2,7 +2,7 @@
 slug: "isonetdrosophila"
 pretitle: "Isonet"
 shorttitle: "Drosophila"
-longtitle: "Isotropic Reconstruction (Drosophila)"
+longtitle: "Drosophila Isotropic Reconstruction"
 tool: care
 videos:
   - url: "RwXCScrvZVQ"

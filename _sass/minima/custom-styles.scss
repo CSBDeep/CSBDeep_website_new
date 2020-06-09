@@ -70,12 +70,12 @@ a small {
 .wrapper {
 	display:flex;
 	flex-direction: column;
-	height: 100%;
 	max-width:1280px;
 	margin:0 auto;
 	display: flex;
 	background: #f1f1f2;
 	flex-direction: column;
+	height: 100%;
 	width: 100%;
 	flex: none;
 	padding: 0;
@@ -301,11 +301,11 @@ section{
 .post-content {
 //     border-left: 50px solid #f2f2f4;
     margin-left: -10px;
-    margin-top: -130px;
+    margin-top: -12px;
     margin-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 130px;
+    padding-top: 10px;
     padding-bottom: 30px;
     flex: 1;
     background: white;
@@ -319,9 +319,21 @@ section{
     padding: 10px 20px 10px 10px;
 }
 
+.contact {
+    margin: 10px 10px 10px -10px;
+    display: flex;
+}
+
+.contact a {
+    color: #711673;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    margin-right: 10px;
+}
+
 .line, article {
-	max-width: 1010px;
-	min-width: 1010px;
+	max-width: 950px;
+	min-width: 950px;
 	display: flex;
 	flex: none;
 	margin: 10px 0 0 0;
@@ -391,7 +403,7 @@ section{
 
 .nexttomedia {
 	flex: none;
-	width: 240px;
+	width: 300px;
 	z-index: 50;
 }
 
@@ -453,24 +465,39 @@ a.icon {
     box-shadow: 0 0 15px 2px rgba(0,0,0,.09);
 }
 
-a.howto {
-    font-size: 120%;
+a.howto, a.external {
+    font-size: 20px;
     font-weight: bold;
-    display: bock;
+    display: block;
     text-decoration: none;
     padding: 10px;
-    margin: 13px 13px 5px 13px;
+    margin: 13px -10px 5px -8px;
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+}
+
+a.howto::before, a.external::before {
+    margin-right: 10px;
+    content: ' ';
+    background: url(../../images/icons/external-link.png) no-repeat center center;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+a.howto:hover, a.icon:hover, a.external:hover {
+    text-decoration: none;
     box-shadow: 0 0 15px 2px rgba(0,0,0,.09);
 }
 
-a.howto::before {
-    margin-right: 10px;
-    content: '\1f892';
+.toolpage-content {
+    margin-top:0px;
 }
 
-a.howto:hover, a.icon:hover {
-    text-decoration: none;
-    box-shadow: 0 0 15px 2px rgba(0,0,0,.19);
+.toolpage-content p, .toolpage-content h2, .toolpage-content h3 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .welcome {
@@ -698,7 +725,7 @@ h2.box {
 }
 
 .logobox2 {
-    margin-left: 270px;
+    margin-left: 320px;
     color: black;
     font-weight: 300;
     margin-top: -170px;
@@ -753,6 +780,7 @@ ul.headerlink {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .tools-list a {
@@ -776,7 +804,8 @@ ul.headerlink {
 
 .tools .tool-training-description {
     font-weight: normal;
-    margin-top: 20px;
+    padding-top: 20px;
+    height: 50%;
 }
 
 .tools .tool-teaser {
@@ -784,6 +813,12 @@ ul.headerlink {
     margin: 10px -10px 0 -10px;
     background-position: center center;
     background-size: cover;
+}
+
+.tools-list .meta {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .tools-list a:hover {
@@ -941,14 +976,12 @@ footer a {
         background: none;
     }
 
-    ul.headerlink {
-        flex-direction: row;
-    }
-
-    .line, article, .line.right {
+    .line, article, .line.right, .line.left {
         min-width: inherit;
         align-self: stretch;
         padding-left: 10px;
+        max-width: unset;
+        align-self: stretch;
     }
 
     .wrapper {
@@ -964,6 +997,10 @@ footer a {
         line-height: inherit;
         text-align: left;
         margin: 0;
+    }
+
+    .post-content {
+        margin-top: 0;
     }
 
 }
@@ -992,4 +1029,8 @@ footer a {
     color: white;
     margin: 10px 0 0 0;
     padding: 15px 10px;
+}
+
+footer {
+    background: none;
 }

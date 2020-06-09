@@ -2,7 +2,7 @@
 slug: "isonetretina"
 pretitle: "Isonet"
 shorttitle: "Retina"
-longtitle: "Isotropic Reconstruction (Retina)"
+longtitle: "Retina Isotropic Reconstruction"
 inputimage: "images/care/isonet/isonet_retina_input.png"
 outputimage: "images/care/isonet/isonet_retina_network.png"
 tool: care

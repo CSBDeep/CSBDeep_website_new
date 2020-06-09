@@ -10,7 +10,9 @@ backlink:
 
 # ![]({{ 'images/icons/credits_black.png' | relative_url }}) Credits
 
-Paper: [https://arxiv.org/abs/1811.10980](https://arxiv.org/abs/1811.10980)
+N2V Paper: [https://arxiv.org/abs/1811.10980](https://arxiv.org/abs/1811.10980)
+
+StructN2V Paper: [https://ieeexplore.ieee.org/document/9098336](https://ieeexplore.ieee.org/document/9098336)
 
 ## How to cite:
 
@@ -22,4 +24,12 @@ Paper: [https://arxiv.org/abs/1811.10980](https://arxiv.org/abs/1811.10980)
   pages={2129--2137},
   year={2019}
 } 
+
+@inproceedings{9098336,
+  author={C. {Broaddus} and A. {Krull} and M. {Weigert} and U. {Schmidt} and G. {Myers}},
+  booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)}, 
+  title={Removing Structured Noise with Self-Supervised Blind-Spot Networks}, 
+  pages={159-163};
+  year={2020}
+}
  ```

@@ -8,27 +8,14 @@ trainingdata: "Matching pairs of raw data and segmented data."
 purpose: "Object detection."
 teaser: images/stardist_overview.png
 ---
-
-## How to use the StarDist in Python
-### Installation
-Please read [this section](https://github.com/mpicbg-csbd/stardist#installation).
-### Data annotation
-Please read [this section](https://github.com/mpicbg-csbd/stardist#annotating-images).
-### Training & prediction
-Please read [this section](https://github.com/mpicbg-csbd/stardist#usage).
-
-## How to export trained StarDist model from Python for Fiji
-Call this method to export after training to export a model as a ZIP which is compatible to <a href="">running prediction in Fiji</a>:
-```python
-model.export_TF()
-```
-## How to use StarDist in Fiji
-Please read [this page](https://imagej.net/StarDist).
-
-## ![]({{ 'images/icons/credits_black.png' | relative_url }}) How to cite
-Please read [this section](https://github.com/mpicbg-csbd/stardist#how-to-cite).
+https://github.com/juglab/n2v/
+[How to use StarDist in Python](https://github.com/mpicbg-csbd/stardist){:target="_blank" class="external"}
+[How to use StarDist in Fiji](https://imagej.net/StarDist){:target="_blank" class="external"}
+[How to cite StarDist](https://github.com/mpicbg-csbd/stardist#how-to-cite){:target="_blank" class="external"}
 
 ## ![]({{ 'images/icons/source_black.png' | relative_url }}) Source code 
 
 {% include github_link.html url="mpicbg-csbd/stardist" text="StarDist in Python" %}
 {% include github_link.html url="mpicbg-csbd/stardist-imagej" text="StarDist in Java / Fiji" %}
+
+

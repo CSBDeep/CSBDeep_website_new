@@ -19,39 +19,39 @@ Supplementary material can be downloaded [here](https://www.biorxiv.org/highwire
 
 ## Authors and Contributors
 
-Martin Weigert [^1,2,*],
-Uwe Schmidt[^1,2],
-Tobias Boothe[^2],
-Andreas M&uuml;ller[^8,9,10],
-Alexandr Dibrov[^1,2],
-Akanksha Jain[^2],
-Benjamin Wilhelm[^1,6],
-Deborah Schmidt[^1],
-Coleman Broaddus[^1,2],
-Si&acirc;n Culley[^4,5],
-Mauricio Rocha-Martins[^1,2],
-Fabi&aacute;n Segovia-Miranda[^2],
-Caren Norden[^2],
-Ricardo Henriques[^4,5],
-Marino Zerial[^1,2],
-Michele Solimena[^2,8,9,10],
-Jochen Rink[^2],
-Pavel Tomancak[^2],
-Loic Royer[^1,2,7,*],
-Florian Jug[^1,2,*]
-&amp; Eugene W. Myers[^1,2,3]
+Martin Weigert [1,2,\*],
+Uwe Schmidt[1,2],
+Tobias Boothe[2],
+Andreas M&uuml;ller[8,9,10],
+Alexandr Dibrov[1,2],
+Akanksha Jain[2],
+Benjamin Wilhelm[1,6],
+Deborah Schmidt[1],
+Coleman Broaddus[1,2],
+Si&acirc;n Culley[4,5],
+Mauricio Rocha-Martins[1,2],
+Fabi&aacute;n Segovia-Miranda[2],
+Caren Norden[2],
+Ricardo Henriques[4,5],
+Marino Zerial[1,2],
+Michele Solimena[2,8,9,10],
+Jochen Rink[2],
+Pavel Tomancak[2],
+Loic Royer[1,2,7,\*],
+Florian Jug[1,2,\*]
+&amp; Eugene W. Myers[1,2,3]
 
-[^1]  Center for Systems Biology Dresden (CSBD), Dresden, Germany<br />
-[^2]  Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany<br />
-[^3]  Department of Computer Science, Technical University Dresden<br />
-[^4]  MRC Laboratory for Molecular Cell Biology, University College London, London, UK<br />
-[^5]  The Francis Crick Institute, London, UK<br />
-[^6]  University of Konstanz, Konstanz, Germany<br />
-[^7]  CZ Biohub, San Francisco, USA<br />
-[^8]  Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany<br />
-[^9]  Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany<br />
-[^10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany<br />
-[^*]  Co-corresponding authors.
+[1]  Center for Systems Biology Dresden (CSBD), Dresden, Germany<br />
+[2]  Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany<br />
+[3]  Department of Computer Science, Technical University Dresden<br />
+[4]  MRC Laboratory for Molecular Cell Biology, University College London, London, UK<br />
+[5]  The Francis Crick Institute, London, UK<br />
+[6]  University of Konstanz, Konstanz, Germany<br />
+[7]  CZ Biohub, San Francisco, USA<br />
+[8]  Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany<br />
+[9]  Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany<br />
+[10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany<br />
+[*]  Co-corresponding authors.
 
 
 ## Acknowledgements
