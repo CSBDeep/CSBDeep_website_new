@@ -95,7 +95,7 @@
   
       ,"page8": {
           "title": "Gallery",
-          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising SEM | . scroll to see reconstructions... SEM 2D Denoising . How was this done? Read more here. .",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising SEM | Denoising something | . scroll to see reconstructions... SEM 2D Denoising . How was this done? Read more here. . scroll to see reconstructions... Something Denoising . How was this done? Read more here. .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/gallery",
           "relUrl": "/tools/n2v/gallery",
           "date": ""
@@ -150,7 +150,7 @@
   
       ,"page13": {
           "title": "",
-          "content": "Image restoration CryoEM Denoising Planaria 3D Denoising SEM 2D Denoising Tribolium 3D Denoising Drosophila Isotropic Reconstruction Retina Isotropic Reconstruction Microtubules Deconvolution Flywing Surface Projection Object detection Flywing segmentation and denoising Mouse nuclei segmentation and denoising Segmenting something with StarDist",
+          "content": "Image restoration CryoEM Denoising Planaria 3D Denoising SEM 2D Denoising Tribolium 3D Denoising Drosophila Isotropic Reconstruction Retina Isotropic Reconstruction Microtubules Deconvolution Something Denoising Flywing Surface Projection Object detection Flywing segmentation and denoising Mouse nuclei segmentation and denoising Segmenting something with StarDist",
           "url": "https://frauzufall.github.io/csbdeep-testsite/scenarios",
           "relUrl": "/scenarios",
           "date": ""
