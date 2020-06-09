@@ -69,7 +69,7 @@ window.onload = wrap_img;
 </head><body>
 <div class="headergroup ">
         <header>
-            <div class="wrapper" id="headerimg" style="background-image: url(/csbdeep-testsite/images/csbdeep-home.png)"></div>
+            <div class="wrapper" id="headerimg"></div>
             
         </header>
     <div class="wrapper">
@@ -81,10 +81,11 @@ window.onload = wrap_img;
                 </a>
                 <ul class="headerlink">
                     
-                    <li ><a href="/csbdeep-testsite/tools">Tools</a></li>
-                    <li  class="active" ><a href="/csbdeep-testsite/scenarios">Scenarios</a></li>
+                    <li  class="active" ><a href="/csbdeep-testsite/scenarios">What can I do with my data?</a></li>
+                    <li ><a href="/csbdeep-testsite/tools">Available tools</a></li>
                     <li ><a href="/csbdeep-testsite/faq">Questions</a></li>
                 </ul>
+                <div class="contact"><a href="/csbdeep-testsite/contact">Contact</a><a href="/csbdeep-testsite/impressum">Impressum</a></div>
             </div>
         </div>
     </div>
@@ -98,8 +99,7 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    This site will list scenarios where we found CSBDeep to be helpful. They can be used as a blueprint for other projects. 
-<div class="tools">
+    <div class="tools">
   <div class="tools-group">
     <div class="title">
       <img src="/csbdeep-testsite/images/tools-restoration.png"/>
@@ -107,15 +107,6 @@ window.onload = wrap_img;
     </div>
     <div class="scenarios-list">
     
-      
-      
-      <a href="/csbdeep-testsite/scenarios/astronomy/">
-        <span class="scenario-title">2D Denoising (Galaxies)</span>
-        <span class="scenario-input" style="background-image: url();"></span>
-        <span class="scenario-output" style="background-image: url();"></span>
-      </a>
-    
-  
       
       
       <a href="/csbdeep-testsite/scenarios/cryoem/">
@@ -128,7 +119,7 @@ window.onload = wrap_img;
       
       
       <a href="/csbdeep-testsite/scenarios/denoisingplanaria/">
-        <span class="scenario-title">3D Denoising (Planaria)</span>
+        <span class="scenario-title">Planaria 3D Denoising</span>
         <span class="scenario-input" style="background-image: url(/csbdeep-testsite/images/care/denoising/denoising_planaria_magma_input.png);"></span>
         <span class="scenario-output" style="background-image: url(/csbdeep-testsite/images/care/denoising/denoising_planaria_magma_network.png);"></span>
       </a>
@@ -137,7 +128,7 @@ window.onload = wrap_img;
       
       
       <a href="/csbdeep-testsite/scenarios/denoisingsem/">
-        <span class="scenario-title">2D Denoising (SEM)</span>
+        <span class="scenario-title">SEM 2D Denoising</span>
         <span class="scenario-input" style="background-image: url(/csbdeep-testsite/images/n2v/input.jpg);"></span>
         <span class="scenario-output" style="background-image: url(/csbdeep-testsite/images/n2v/output.jpg);"></span>
       </a>
@@ -146,7 +137,7 @@ window.onload = wrap_img;
       
       
       <a href="/csbdeep-testsite/scenarios/denoisingtribolium/">
-        <span class="scenario-title">3D Denoising (Tribolium)</span>
+        <span class="scenario-title">Tribolium 3D Denoising</span>
         <span class="scenario-input" style="background-image: url(/csbdeep-testsite/images/care/denoising/denoising_tribolium_magma_input.png);"></span>
         <span class="scenario-output" style="background-image: url(/csbdeep-testsite/images/care/denoising/denoising_tribolium_magma_network.png);"></span>
       </a>
@@ -155,7 +146,7 @@ window.onload = wrap_img;
       
       
       <a href="/csbdeep-testsite/scenarios/isotropicreconstructiondrosophila/">
-        <span class="scenario-title">Isotropic Reconstruction (Drosophila)</span>
+        <span class="scenario-title">Drosophila Isotropic Reconstruction</span>
         <span class="scenario-input" style="background-image: url();"></span>
         <span class="scenario-output" style="background-image: url();"></span>
       </a>
@@ -164,7 +155,7 @@ window.onload = wrap_img;
       
       
       <a href="/csbdeep-testsite/scenarios/isotropicreconstructionretina/">
-        <span class="scenario-title">Isotropic Reconstruction (Retina)</span>
+        <span class="scenario-title">Retina Isotropic Reconstruction</span>
         <span class="scenario-input" style="background-image: url(/csbdeep-testsite/images/care/isonet/isonet_retina_input.png);"></span>
         <span class="scenario-output" style="background-image: url(/csbdeep-testsite/images/care/isonet/isonet_retina_network.png);"></span>
       </a>
@@ -173,7 +164,7 @@ window.onload = wrap_img;
       
       
       <a href="/csbdeep-testsite/scenarios/reconstructionmicrotubules/">
-        <span class="scenario-title">Deconvolution (Microtubules)</span>
+        <span class="scenario-title">Microtubules Deconvolution</span>
         <span class="scenario-input" style="background-image: url(/csbdeep-testsite/images/care/tubules/tubules_srrf_input_hot.png);"></span>
         <span class="scenario-output" style="background-image: url(/csbdeep-testsite/images/care/tubules/tubules_srrf_network_hot.png);"></span>
       </a>
@@ -184,8 +175,14 @@ window.onload = wrap_img;
   
       
       
+  
+      
+      
+  
+      
+      
       <a href="/csbdeep-testsite/scenarios/surfaceprojectionflywing/">
-        <span class="scenario-title">Surface Projection (Flywing)</span>
+        <span class="scenario-title">Flywing Surface Projection</span>
         <span class="scenario-input" style="background-image: url(/csbdeep-testsite/images/care/projection/projection_flywing_magma_input.png);"></span>
         <span class="scenario-output" style="background-image: url(/csbdeep-testsite/images/care/projection/projection_flywing_magma_network.png);"></span>
       </a>
@@ -224,6 +221,21 @@ window.onload = wrap_img;
   
       
       
+      <a href="/csbdeep-testsite/scenarios/segmentationflywing/">
+        <span class="scenario-title">Flywing segmentation and denoising</span>
+        <span class="scenario-input" style="background-image: url();"></span>
+        <span class="scenario-output" style="background-image: url();"></span>
+      </a>
+    
+  
+      
+      
+      <a href="/csbdeep-testsite/scenarios/segmentationmousenuclei/">
+        <span class="scenario-title">Mouse nuclei segmentation and denoising</span>
+        <span class="scenario-input" style="background-image: url();"></span>
+        <span class="scenario-output" style="background-image: url();"></span>
+      </a>
+    
   
       
       
@@ -241,8 +253,6 @@ window.onload = wrap_img;
   </div>
 </div>
 
-Is your problem not covered here? Talk to us in case you think it might be solvable with our tools! Did you solve your problem using one of our tools?
-Let us know about it so we can add a scenario for it here and others can learn from you!
   </div>
 
 </article>

@@ -69,7 +69,7 @@ window.onload = wrap_img;
 </head><body>
 <div class="headergroup ">
         <header>
-            <div class="wrapper" id="headerimg" style="background-image: url(/csbdeep-testsite/images/csbdeep-home.png)"></div>
+            <div class="wrapper" id="headerimg"></div>
             
         </header>
     <div class="wrapper">
@@ -81,10 +81,11 @@ window.onload = wrap_img;
                 </a>
                 <ul class="headerlink">
                     
-                    <li  class="active" ><a href="/csbdeep-testsite/tools">Tools</a></li>
-                    <li ><a href="/csbdeep-testsite/scenarios">Scenarios</a></li>
+                    <li ><a href="/csbdeep-testsite/scenarios">What can I do with my data?</a></li>
+                    <li  class="active" ><a href="/csbdeep-testsite/tools">Available tools</a></li>
                     <li ><a href="/csbdeep-testsite/faq">Questions</a></li>
                 </ul>
+                <div class="contact"><a href="/csbdeep-testsite/contact">Contact</a><a href="/csbdeep-testsite/impressum">Impressum</a></div>
             </div>
         </div>
     </div>
@@ -106,26 +107,42 @@ window.onload = wrap_img;
       <a href="/csbdeep-testsite/tools/care/">
         <span class="tool-title">CARE</span>
         <span class="tool-teaser" style="background-image: url(/csbdeep-testsite/images/csbdeep-teaser.jpg);"></span>
+        <span class="meta"">
         <span class="tool-training-description"><strong>Training data: </strong> Matching image pairs.</span>
+        <span class="tool-training-description"><strong>Purpose: </strong> Image restoration.</span>
+        </span>
+      </a>
+  
+      <a href="/csbdeep-testsite/tools/denoiseg/">
+        <span class="tool-title">DenoiSeg</span>
+        <span class="tool-teaser" style="background-image: url(/csbdeep-testsite/images/denoiseg/denoiseg-teaser.jpg);"></span>
+        <span class="meta"">
+        <span class="tool-training-description"><strong>Training data: </strong> Noisy images, some of them with existing segmentation.</span>
+        <span class="tool-training-description"><strong>Purpose: </strong> Image restoration and object detection.</span>
+        </span>
       </a>
   
       <a href="/csbdeep-testsite/tools/n2v/">
         <span class="tool-title">Noise2Void</span>
         <span class="tool-teaser" style="background-image: url(/csbdeep-testsite/images/n2v/n2v-teaser.jpg);"></span>
+        <span class="meta"">
         <span class="tool-training-description"><strong>Training data: </strong> Only noisy images.</span>
+        <span class="tool-training-description"><strong>Purpose: </strong> Image restoration.</span>
+        </span>
       </a>
   
       <a href="/csbdeep-testsite/tools/stardist/">
         <span class="tool-title">StarDist</span>
         <span class="tool-teaser" style="background-image: url(/csbdeep-testsite/images/stardist_overview.png);"></span>
+        <span class="meta"">
         <span class="tool-training-description"><strong>Training data: </strong> Matching pairs of raw data and segmented data.</span>
+        <span class="tool-training-description"><strong>Purpose: </strong> Object detection.</span>
+        </span>
       </a>
   
     </div>
   </div>
 </div>
-
-Ideas for tools we should include in CSBDeep? Let us know here...
 
   </div>
 

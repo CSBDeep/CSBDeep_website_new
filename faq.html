@@ -69,7 +69,7 @@ window.onload = wrap_img;
 </head><body>
 <div class="headergroup ">
         <header>
-            <div class="wrapper" id="headerimg" style="background-image: url(/csbdeep-testsite/images/csbdeep-home.png)"></div>
+            <div class="wrapper" id="headerimg"></div>
             
         </header>
     <div class="wrapper">
@@ -81,10 +81,11 @@ window.onload = wrap_img;
                 </a>
                 <ul class="headerlink">
                     
-                    <li ><a href="/csbdeep-testsite/tools">Tools</a></li>
-                    <li ><a href="/csbdeep-testsite/scenarios">Scenarios</a></li>
+                    <li ><a href="/csbdeep-testsite/scenarios">What can I do with my data?</a></li>
+                    <li ><a href="/csbdeep-testsite/tools">Available tools</a></li>
                     <li  class="active" ><a href="/csbdeep-testsite/faq">Questions</a></li>
                 </ul>
+                <div class="contact"><a href="/csbdeep-testsite/contact">Contact</a><a href="/csbdeep-testsite/impressum">Impressum</a></div>
             </div>
         </div>
     </div>
@@ -98,15 +99,13 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
-
-<h2 id="what-is-training">What is training?</h2>
+    <h2 id="what-is-training">What is training?</h2>
 <p>Artificial neural networks are designed to solve specific tasks, like denoising an image or segmenting cells. Networks need to be trained. The training process includes feeding data into the network. The network will then learn characteristics of the input and it’s weights will iteratively be adjusted to solve the problem specific to the provided input data.</p>
 
 <h2 id="what-is-prediction">What is prediction?</h2>
 <p>A trained network can be used to guess the solution for a specific input. It does not need to be the same data which was used for training, but the network can return unexpected results if the input data varies too much from the training data. While training takes hours to complete, prediction is much faster.</p>
 
-<h2 id="i-dont-want-to-train">I don’t want to train.</h2>
+<h2 id="i-dont-want-to-train-long">I don’t want to train (long).</h2>
 <p>Me neither! But chances are high this will strongly improve the quality of the result and will avoid cases where a network predicts reasonable looking data which has nothing to do with reality. This is a serious risk of using artificial neural networks.</p>
 
 <p>Some networks are trained on a wide range of data and can be generally useful. Or someone else has capacities to train a network on the type of images you want to apply prediction onto.

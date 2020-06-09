@@ -351,7 +351,7 @@ a small { font-size: 11px; color: #777; margin-top: -0.6em; display: block; }
 
 #landingpage { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: url(../../images/landingpage.jpg) center center; background-size: cover; }
 
-.wrapper { display: flex; flex-direction: column; height: 100%; max-width: 1280px; margin: 0 auto; display: flex; background: #f1f1f2; flex-direction: column; width: 100%; flex: none; padding: 0; }
+.wrapper { display: flex; flex-direction: column; max-width: 1280px; margin: 0 auto; display: flex; background: #f1f1f2; flex-direction: column; height: 100%; width: 100%; flex: none; padding: 0; }
 
 .homepage { position: absolute; left: 0; right: 0; margin-top: 20px; }
 
@@ -423,11 +423,15 @@ section { flex: 1; display: flex; flex-direction: column; justify-content: cente
 
 .gallery-header a strong { display: block; }
 
-.post-content { margin-left: -10px; margin-top: -130px; margin-bottom: 0px; padding-left: 10px; padding-right: 10px; padding-top: 130px; padding-bottom: 30px; flex: 1; background: white; display: flex; flex-direction: column; }
+.post-content { margin-left: -10px; margin-top: -12px; margin-bottom: 0px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 30px; flex: 1; background: white; display: flex; flex-direction: column; }
 
 .post-content h1, .post-content h2, .post-content h3 { background: #f9f9fa; margin: 10px -10px 10px -10px; padding: 10px 20px 10px 10px; }
 
-.line, article { max-width: 1010px; min-width: 1010px; display: flex; flex: none; margin: 10px 0 0 0; flex-direction: column; }
+.contact { margin: 10px 10px 10px -10px; display: flex; }
+
+.contact a { color: #711673; background: rgba(255, 255, 255, 0.7); padding: 10px; margin-right: 10px; }
+
+.line, article { max-width: 950px; min-width: 950px; display: flex; flex: none; margin: 10px 0 0 0; flex-direction: column; }
 
 .line.left { align-self: flex-start; }
 
@@ -451,7 +455,7 @@ section { flex: 1; display: flex; flex-direction: column; justify-content: cente
 
 .video { margin: 20px 20px 5px 10px; padding: 10px 10px 5px 10px; }
 
-.nexttomedia { flex: none; width: 240px; z-index: 50; }
+.nexttomedia { flex: none; width: 300px; z-index: 50; }
 
 a.githublink { display: inline-block; margin: 20px; padding: 10px; font-weight: bold; text-decoration: none; width: 100px; box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.09); }
 
@@ -471,11 +475,15 @@ header .line { align-items: center; }
 
 a.icon { display: inline-block; margin: 13px; padding: 10px 20px 10px 10px; text-decoration: none; box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.09); }
 
-a.howto { font-size: 120%; font-weight: bold; display: bock; text-decoration: none; padding: 10px; margin: 13px 13px 5px 13px; box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.09); }
+a.howto, a.external { font-size: 20px; font-weight: bold; display: block; text-decoration: none; padding: 10px; margin: 13px -10px 5px -8px; display: flex; align-items: center; line-height: 25px; }
 
-a.howto::before { margin-right: 10px; content: '\1f892'; }
+a.howto::before, a.external::before { margin-right: 10px; content: ' '; background: url(../../images/icons/external-link.png) no-repeat center center; height: 30px; width: 30px; display: inline-block; }
 
-a.howto:hover, a.icon:hover { text-decoration: none; box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.19); }
+a.howto:hover, a.icon:hover, a.external:hover { text-decoration: none; box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.09); }
+
+.toolpage-content { margin-top: 0px; }
+
+.toolpage-content p, .toolpage-content h2, .toolpage-content h3 { padding-left: 20px; padding-right: 20px; }
 
 .welcome { margin-top: 160px; margin-bottom: 0; padding-bottom: 0; }
 
@@ -555,7 +563,7 @@ h2.box { padding-top: 35px; padding-bottom: 0; }
 
 .logobox, logobox2 { display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; padding-bottom: 0; position: absolute; }
 
-.logobox2 { margin-left: 270px; color: black; font-weight: 300; margin-top: -170px; position: relative; }
+.logobox2 { margin-left: 320px; color: black; font-weight: 300; margin-top: -170px; position: relative; }
 
 #page-home .logobox { align-self: flex-start; }
 
@@ -567,15 +575,17 @@ ul.headerlink { flex-direction: column; margin: 0 -10px; }
 
 .headerlink li a { display: block; text-align: left; }
 
-.tools .tools-list { list-style: none; padding: 0; margin: 0; display: flex; }
+.tools .tools-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; }
 
 .tools-list a { min-width: 200px; max-width: 250px; flex: 1; color: black; display: flex; flex-direction: column; border: 1px solid #f1f1f3; padding: 10px; margin: 10px; text-decoration: none; }
 
 .tools .tool-title { background: #f1f1f3; margin: -10px; padding: 10px; }
 
-.tools .tool-training-description { font-weight: normal; margin-top: 20px; }
+.tools .tool-training-description { font-weight: normal; padding-top: 20px; height: 50%; }
 
 .tools .tool-teaser { height: 100px; margin: 10px -10px 0 -10px; background-position: center center; background-size: cover; }
+
+.tools-list .meta { display: flex; flex-direction: column; flex: 1; }
 
 .tools-list a:hover { text-decoration: none; box-shadow: 0 0 35px 5px rgba(0, 0, 0, 0.05); }
 
@@ -618,11 +628,11 @@ footer .wrapper { background: #F9F9FA; padding: 10px 0; }
 footer a { color: black; }
 
 @media print, screen and (max-width: 1100px) { .logobox, .logobox2 { width: inherit; position: relative; margin-top: unset; margin-left: unset; background: none; }
-  ul.headerlink { flex-direction: row; }
-  .line, article, .line.right { min-width: inherit; align-self: stretch; padding-left: 10px; }
+  .line, article, .line.right, .line.left { min-width: inherit; align-self: stretch; padding-left: 10px; max-width: unset; align-self: stretch; }
   .wrapper { background: none; }
   .logobox2 .box { background: white; }
-  .logobox2 #logo { height: inherit; line-height: inherit; text-align: left; margin: 0; } }
+  .logobox2 #logo { height: inherit; line-height: inherit; text-align: left; margin: 0; }
+  .post-content { margin-top: 0; } }
 
 .gallery .nexttomedia { position: absolute; padding: 10px; color: white; right: 0; background: none; }
 
@@ -631,5 +641,7 @@ footer a { color: black; }
 .gallery .nexttomedia > span { background: none; box-shadow: none; padding: 0; }
 
 .gallery .title h3 { color: white; margin: 10px 0 0 0; padding: 15px 10px; }
+
+footer { background: none; }
 
 /*# sourceMappingURL=style.css.map */
