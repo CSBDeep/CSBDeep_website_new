@@ -51,17 +51,6 @@
   
       ,"page4": {
           "title": "Credits",
-          "content": "Credits . Related Publications . Please see the paper in Nature Methods. (Preprint on bioRxiv) . Supplementary material can be downloaded here. . Authors and Contributors . Martin Weigert [1,2,*], Uwe Schmidt[1,2], Tobias Boothe[2], Andreas Müller[8,9,10], Alexandr Dibrov[1,2], Akanksha Jain[2], Benjamin Wilhelm[1,6], Deborah Schmidt[1], Coleman Broaddus[1,2], Siân Culley[4,5], Mauricio Rocha-Martins[1,2], Fabián Segovia-Miranda[2], Caren Norden[2], Ricardo Henriques[4,5], Marino Zerial[1,2], Michele Solimena[2,8,9,10], Jochen Rink[2], Pavel Tomancak[2], Loic Royer[1,2,7,*], Florian Jug[1,2,*] &amp; Eugene W. Myers[1,2,3] . [1] Center for Systems Biology Dresden (CSBD), Dresden, Germany [2] Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany [3] Department of Computer Science, Technical University Dresden [4] MRC Laboratory for Molecular Cell Biology, University College London, London, UK [5] The Francis Crick Institute, London, UK [6] University of Konstanz, Konstanz, Germany [7] CZ Biohub, San Francisco, USA [8] Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany [9] Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany [10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany [*] Co-corresponding authors. . Acknowledgements . The authors want to thank Philipp Keller (Janelia) who provided Drosophila data. We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke Sönmez for cell culture work. We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B). We thank Benoit Lombardot from the Scientific Computing Facility (MPI-CBG). We thank the following Services and Facilities of the MPI-CBG for their support: Computer Department, Light Microscopy Facility (LMF) and Fish Facility. This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II). M.S. was supported by the German Center for Diabetes Research (DZD e.V.). R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z). .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/credits",
-          "relUrl": "/tools/care/credits",
-          "date": ""
-      }
-      
-  
-
-  
-      ,"page5": {
-          "title": "Credits",
           "content": "Credits . N2V Paper: https://arxiv.org/abs/1811.10980 . StructN2V Paper: https://ieeexplore.ieee.org/document/9098336 . How to cite: . @inproceedings{krull2019noise2void, title={Noise2void-learning denoising from single noisy images}, author={Krull, Alexander and Buchholz, Tim-Oliver and Jug, Florian}, booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages={2129--2137}, year={2019} } @inproceedings{9098336, author={C. {Broaddus} and A. {Krull} and M. {Weigert} and U. {Schmidt} and G. {Myers}}, booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)}, title={Removing Structured Noise with Self-Supervised Blind-Spot Networks}, pages={159-163}; year={2020} } .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/credits",
           "relUrl": "/tools/n2v/credits",
@@ -71,18 +60,18 @@
   
 
   
-      ,"page6": {
-          "title": "FAQ",
-          "content": "Frequently Asked Questions . How long do I have to train? . Longer. 100 sepochs with 300 steps each for example. . How much data do I need for training? . Don’t go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, … The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the “train on folder” command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation. . What about SEM / TEM / CMOS? . Do training and test data need to be of the same dimensions? . No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it’ll split them up again into batches internally. .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq",
-          "relUrl": "/tools/n2v/faq",
+      ,"page5": {
+          "title": "Credits",
+          "content": "Credits . Related Publications . Please see the paper in Nature Methods. (Preprint on bioRxiv) . Supplementary material can be downloaded here. . Authors and Contributors . Martin Weigert [1,2,*], Uwe Schmidt[1,2], Tobias Boothe[2], Andreas Müller[8,9,10], Alexandr Dibrov[1,2], Akanksha Jain[2], Benjamin Wilhelm[1,6], Deborah Schmidt[1], Coleman Broaddus[1,2], Siân Culley[4,5], Mauricio Rocha-Martins[1,2], Fabián Segovia-Miranda[2], Caren Norden[2], Ricardo Henriques[4,5], Marino Zerial[1,2], Michele Solimena[2,8,9,10], Jochen Rink[2], Pavel Tomancak[2], Loic Royer[1,2,7,*], Florian Jug[1,2,*] &amp; Eugene W. Myers[1,2,3] . [1] Center for Systems Biology Dresden (CSBD), Dresden, Germany [2] Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany [3] Department of Computer Science, Technical University Dresden [4] MRC Laboratory for Molecular Cell Biology, University College London, London, UK [5] The Francis Crick Institute, London, UK [6] University of Konstanz, Konstanz, Germany [7] CZ Biohub, San Francisco, USA [8] Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany [9] Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany [10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany [*] Co-corresponding authors. . Acknowledgements . The authors want to thank Philipp Keller (Janelia) who provided Drosophila data. We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke Sönmez for cell culture work. We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B). We thank Benoit Lombardot from the Scientific Computing Facility (MPI-CBG). We thank the following Services and Facilities of the MPI-CBG for their support: Computer Department, Light Microscopy Facility (LMF) and Fish Facility. This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II). M.S. was supported by the German Center for Diabetes Research (DZD e.V.). R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z). .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/credits",
+          "relUrl": "/tools/care/credits",
           "date": ""
       }
       
   
 
   
-      ,"page7": {
+      ,"page6": {
           "title": "Frequently Asked Questions",
           "content": "What is training? . Artificial neural networks are designed to solve specific tasks, like denoising an image or segmenting cells. Networks need to be trained. The training process includes feeding data into the network. The network will then learn characteristics of the input and it’s weights will iteratively be adjusted to solve the problem specific to the provided input data. . What is prediction? . A trained network can be used to guess the solution for a specific input. It does not need to be the same data which was used for training, but the network can return unexpected results if the input data varies too much from the training data. While training takes hours to complete, prediction is much faster. . I don’t want to train (long). . Me neither! But chances are high this will strongly improve the quality of the result and will avoid cases where a network predicts reasonable looking data which has nothing to do with reality. This is a serious risk of using artificial neural networks. . Some networks are trained on a wide range of data and can be generally useful. Or someone else has capacities to train a network on the type of images you want to apply prediction onto. These trained networks can be shared distributed to others e.g. as ZIP files. . How do I know if a pretrained network will solve my problem? . I made something new based on CSBDeep! .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/faq",
@@ -93,11 +82,22 @@
   
 
   
+      ,"page7": {
+          "title": "FAQ",
+          "content": "Frequently Asked Questions . How long do I have to train? . Longer. 100 sepochs with 300 steps each for example. . How much data do I need for training? . Don’t go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, … The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the “train on folder” command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation. . What about SEM / TEM / CMOS? . Do training and test data need to be of the same dimensions? . No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it’ll split them up again into batches internally. .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/faq",
+          "relUrl": "/tools/n2v/faq",
+          "date": ""
+      }
+      
+  
+
+  
       ,"page8": {
           "title": "Gallery",
-          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising SEM | Denoising something | . scroll to see reconstructions... SEM 2D Denoising . How was this done? Read more here. . scroll to see reconstructions... Something Denoising . How was this done? Read more here. .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/gallery",
-          "relUrl": "/tools/n2v/gallery",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising CryoEM | Denoising Planaria | Denoising Trobium | Isonet Retina | Reconstr. of Microtubules | Projection Flywing | . scroll to see reconstructions... CryoEM Denoising . How was this done? Read more here. . scroll to see reconstructions... Planaria 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Tribolium 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Retina Isotropic Reconstruction . How was this done? Read more here. . scroll to see reconstructions... Microtubules Deconvolution . How was this done? Read more here. . scroll to see reconstructions... Flywing Surface Projection . How was this done? Read more here. .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/gallery",
+          "relUrl": "/tools/care/gallery",
           "date": ""
       }
       
@@ -106,9 +106,9 @@
   
       ,"page9": {
           "title": "Gallery",
-          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising CryoEM | Denoising Planaria | Denoising Trobium | Isonet Retina | Reconstr. of Microtubules | Projection Flywing | . scroll to see reconstructions... CryoEM Denoising . How was this done? Read more here. . scroll to see reconstructions... Planaria 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Tribolium 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Retina Isotropic Reconstruction . How was this done? Read more here. . scroll to see reconstructions... Microtubules Deconvolution . How was this done? Read more here. . scroll to see reconstructions... Flywing Surface Projection . How was this done? Read more here. .",
-          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/gallery",
-          "relUrl": "/tools/care/gallery",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising SEM | Denoising something | . scroll to see reconstructions... SEM 2D Denoising . How was this done? Read more here. . scroll to see reconstructions... Something Denoising . How was this done? Read more here. .",
+          "url": "https://frauzufall.github.io/csbdeep-testsite/tools/n2v/gallery",
+          "relUrl": "/tools/n2v/gallery",
           "date": ""
       }
       
@@ -128,7 +128,7 @@
   
       ,"page11": {
           "title": "",
-          "content": "",
+          "content": "CSBDeep - a toolbox for Content-aware Image Restoration (CARE) . Fluorescence microscopy is a key driver of discoveries in life-sciences, with observable phenomena being limited by the optics of the microscope, chemical and physical properties of fluorescent markers and the maximum photon exposure tolerated by the sample being observed. These limits incur trade-offs between imaging speed, spatial resolution, light exposure and imaging depth. New deep learning tools and methods enable the observation of biological phenomena beyond physical limitations of microscopy, effectively broadening the limits of viable microscopy techniques. . This is the new home for the CSBDeep toolbox and derived methods, consisting of deep learning-based methods for content-aware image restoration and segmentation, created at the Center for Systems Biology (CSBD). .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/",
           "relUrl": "/",
           "date": ""
