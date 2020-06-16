@@ -67,6 +67,17 @@ a small {
     background-size: cover;
 }
 
+.intro {
+    position: relative;
+    background: rgba(255, 245, 255, 0.7);
+    padding: 20px;
+    margin-left: 390px;
+}
+
+.intro h1 {
+    margin-bottom: 20px;
+}
+
 .wrapper {
 	display:flex;
 	flex-direction: column;
@@ -1001,6 +1012,10 @@ footer a {
 
     .post-content {
         margin-top: 0;
+    }
+
+    .intro {
+        margin: 10px;
     }
 
 }
