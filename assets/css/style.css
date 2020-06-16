@@ -351,6 +351,10 @@ a small { font-size: 11px; color: #777; margin-top: -0.6em; display: block; }
 
 #landingpage { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: url(../../images/landingpage.jpg) center center; background-size: cover; }
 
+.intro { position: relative; background: rgba(255, 245, 255, 0.7); padding: 20px; margin-left: 390px; }
+
+.intro h1 { margin-bottom: 20px; }
+
 .wrapper { display: flex; flex-direction: column; max-width: 1280px; margin: 0 auto; display: flex; background: #f1f1f2; flex-direction: column; height: 100%; width: 100%; flex: none; padding: 0; }
 
 .homepage { position: absolute; left: 0; right: 0; margin-top: 20px; }
@@ -632,7 +636,8 @@ footer a { color: black; }
   .wrapper { background: none; }
   .logobox2 .box { background: white; }
   .logobox2 #logo { height: inherit; line-height: inherit; text-align: left; margin: 0; }
-  .post-content { margin-top: 0; } }
+  .post-content { margin-top: 0; }
+  .intro { margin: 10px; } }
 
 .gallery .nexttomedia { position: absolute; padding: 10px; color: white; right: 0; background: none; }
 
