@@ -7,15 +7,15 @@
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Segmentationflywing" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Authorship" />
-<meta property="og:description" content="Authorship" />
+<meta name="description" content="Authorship This work (method and data) is part of DenoiSeg: Joint Denoising and Segmentation by Tim-Oliver Buchholz and Mangal Prakash et al." />
+<meta property="og:description" content="Authorship This work (method and data) is part of DenoiSeg: Joint Denoising and Segmentation by Tim-Oliver Buchholz and Mangal Prakash et al." />
 <link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/" />
 <meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/" />
 <meta property="og:site_name" content="CSBDeep" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-16T05:52:29-05:00" />
+<meta property="article:published_time" content="2020-06-17T02:54:55-05:00" />
 <script type="application/ld+json">
-{"description":"Authorship","headline":"Segmentationflywing","dateModified":"2020-06-16T05:52:29-05:00","datePublished":"2020-06-16T05:52:29-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/"},"url":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/","@context":"https://schema.org"}</script>
+{"description":"Authorship This work (method and data) is part of DenoiSeg: Joint Denoising and Segmentation by Tim-Oliver Buchholz and Mangal Prakash et al.","headline":"Segmentationflywing","dateModified":"2020-06-17T02:54:55-05:00","datePublished":"2020-06-17T02:54:55-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/"},"url":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/csbdeep-testsite/assets/css/style.css">
   <script src="/csbdeep-testsite/assets/js/jquery-3.2.1.min.js"></script>
@@ -24,15 +24,15 @@
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Segmentationflywing" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Authorship" />
-<meta property="og:description" content="Authorship" />
+<meta name="description" content="Authorship This work (method and data) is part of DenoiSeg: Joint Denoising and Segmentation by Tim-Oliver Buchholz and Mangal Prakash et al." />
+<meta property="og:description" content="Authorship This work (method and data) is part of DenoiSeg: Joint Denoising and Segmentation by Tim-Oliver Buchholz and Mangal Prakash et al." />
 <link rel="canonical" href="https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/" />
 <meta property="og:url" content="https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/" />
 <meta property="og:site_name" content="CSBDeep" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-16T05:52:29-05:00" />
+<meta property="article:published_time" content="2020-06-17T02:54:55-05:00" />
 <script type="application/ld+json">
-{"description":"Authorship","headline":"Segmentationflywing","dateModified":"2020-06-16T05:52:29-05:00","datePublished":"2020-06-16T05:52:29-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/"},"url":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/","@context":"https://schema.org"}</script>
+{"description":"Authorship This work (method and data) is part of DenoiSeg: Joint Denoising and Segmentation by Tim-Oliver Buchholz and Mangal Prakash et al.","headline":"Segmentationflywing","dateModified":"2020-06-17T02:54:55-05:00","datePublished":"2020-06-17T02:54:55-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/"},"url":"https://frauzufall.github.io/csbdeep-testsite/scenarios/segmentationflywing/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -120,8 +120,17 @@ window.onload = wrap_img;
         <h1>Flywing segmentation and denoising</h1>
 
         <h2 id="authorship">Authorship</h2>
+<p>This work (method and data) is part of <a href="https://arxiv.org/pdf/2005.02987.pdf">DenoiSeg: Joint Denoising and Segmentation</a> by Tim-Oliver Buchholz and Mangal Prakash et al.</p>
 
 <h2 id="details">Details</h2>
+
+<p>Raw noisy input with denoised and segmentation outputs of a trained DenoiSeg Network on Flywing dataset. The network was trained using 1428 noisy images of size 128x128 and only 5 of those images had segmentation ground truth available.</p>
+
+<p>We observe that some errors are present in segmentation result which is to be expected since the network was trained on very limited segmentation annotations. But the erros are significantly lesser as compared to results obtained with other baselines trained with limited ground truth annotations. To compare our results with other baselines, <a href="https://github.com/juglab/DenoiSeg/wiki/Quantitative-segmentation-comparison-for-Flywing-dataset">check this page</a>.</p>
+
+<h2 id="demo">Demo</h2>
+
+<p>To reproduce this experiment with our Jupyter notebooks, <a href="https://github.com/juglab/DenoiSeg">follow these instructions</a>.</p>
 </div>
 
 </div>
