@@ -5,6 +5,7 @@ shorttitle: "Planaria"
 longtitle: "Planaria 3D Denoising"
 inputimage: "images/care/denoising/denoising_planaria_magma_input.png"
 outputimage: "images/care/denoising/denoising_planaria_magma_network.png"
+inoutdata: noisy_gt
 videos:
   - url: "00JSI37yrSQ"
     description: "Enabling live-cell imaging of the flatworm *S. mediterranea*."  

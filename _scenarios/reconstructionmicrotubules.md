@@ -6,6 +6,7 @@ longtitle: "Microtubules Deconvolution"
 inputimage: "images/care/tubules/tubules_srrf_input_hot.png"
 outputimage: "images/care/tubules/tubules_srrf_network_hot.png"
 tool: care
+inoutdata: noisy_gt
 videos:
   - url: "ooeHl_qmqzI"
     description: "Reconstruction of diffraction-limited structures at very high frame-rate in rat insulin secretory granules."  

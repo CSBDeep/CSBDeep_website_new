@@ -4,6 +4,7 @@ pretitle: "Isonet"
 shorttitle: "Drosophila"
 longtitle: "Drosophila Isotropic Reconstruction"
 tool: care
+inoutdata: noisy_gt
 videos:
   - url: "RwXCScrvZVQ"
     description: "Using CARE to computationally increase axial resolution of imaged fruit fly embryos to de-facto isometric resolution."
