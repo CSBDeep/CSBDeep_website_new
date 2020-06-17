@@ -6,6 +6,7 @@ longtitle: "SEM 2D Denoising"
 inputimage: "images/n2v/input.jpg"
 outputimage: "images/n2v/output.jpg"  
 tool: n2v
+inoutdata: noisy_void
 videos:
   - url: DJw2VMlDsME
     description: "Training a U-Net with Noise2Void on a single noisy Scanning Electron Microscopy (SEM) image and denoising it."
