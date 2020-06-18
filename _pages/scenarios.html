@@ -11,17 +11,56 @@ permalink: /scenarios
       <img src="{{ site.baseurl }}/images/tools-restoration.png"/>
       Image restoration
     </div>
-    <div class="scenarios-list">
-    {% for scenario in site.scenarios %}
-      {% assign tool = site.tools | where_exp:"item", "scenario.tool contains item.slug" %}
-      {% if tool[0].outputtype == "image" %}
-      <a href="{{ scenario.url | prepend: site.baseurl }}">
-        <span class="scenario-title">{{ scenario.longtitle }}</span>
-        <span class="scenario-input" style="background-image: url({{ scenario.inputimage | relative_url }});"></span>
-        <span class="scenario-output" style="background-image: url({{ scenario.outputimage | relative_url }});"></span>
-      </a>
-    {% endif %}
-  {% endfor %}
+    <div class="tools-subgroup-title">
+        <h5>Pairs of noisy and clean images:</h5>
+    </div>
+    <div class="tools-subgroup">
+        <div class="scenarios-list">
+        {% for scenario in site.scenarios %}
+        {% assign tool = site.tools | where_exp:"item", "scenario.tool contains item.slug" %}
+        {% if tool[0].outputtype == "image" and scenario.inoutdata == "noisy_gt" %}
+        <a href="{{ scenario.url | prepend: site.baseurl }}">
+            <span class="scenario-title">{{ scenario.longtitle }}</span>
+            <span class="scenario-input" style="background-image: url({{ scenario.inputimage | relative_url }});"></span>
+            <span class="scenario-output" style="background-image: url({{ scenario.outputimage | relative_url }});"></span>
+        </a>
+        {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+    <div class="tools-subgroup-title">
+        <h5>Pairs of noisy images:</h5>
+    </div>
+    <div class="tools-subgroup">
+        <div class="scenarios-list">
+        {% for scenario in site.scenarios %}
+        {% assign tool = site.tools | where_exp:"item", "scenario.tool contains item.slug" %}
+        {% if tool[0].outputtype == "image" and scenario.inoutdata == "noisy_noisy" %}
+        <a href="{{ scenario.url | prepend: site.baseurl }}">
+            <span class="scenario-title">{{ scenario.longtitle }}</span>
+            <span class="scenario-input" style="background-image: url({{ scenario.inputimage | relative_url }});"></span>
+            <span class="scenario-output" style="background-image: url({{ scenario.outputimage | relative_url }});"></span>
+        </a>
+        {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+    <div class="tools-subgroup-title">
+        <h5>Single noisy images:</h5>
+    </div>
+    <div class="tools-subgroup">
+        <div class="scenarios-list">
+        {% for scenario in site.scenarios %}
+        {% assign tool = site.tools | where_exp:"item", "scenario.tool contains item.slug" %}
+        {% if tool[0].outputtype == "image" and scenario.inoutdata == "noisy_void" %}
+        <a href="{{ scenario.url | prepend: site.baseurl }}">
+            <span class="scenario-title">{{ scenario.longtitle }}</span>
+            <span class="scenario-input" style="background-image: url({{ scenario.inputimage | relative_url }});"></span>
+            <span class="scenario-output" style="background-image: url({{ scenario.outputimage | relative_url }});"></span>
+        </a>
+        {% endif %}
+        {% endfor %}
+        </div>
     </div>
   </div>
 

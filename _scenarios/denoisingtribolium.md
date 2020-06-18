@@ -6,6 +6,7 @@ longtitle: "Tribolium 3D Denoising"
 inputimage: "images/care/denoising/denoising_tribolium_magma_input.png"
 outputimage: "images/care/denoising/denoising_tribolium_magma_network.png"
 tool: care
+inoutdata: noisy_gt
 videos:
   - url: "oawqymyaaLw"
     description: "Denoising results on a developing *T. castaneum* (red flour beetle) embryo."  

@@ -6,6 +6,7 @@ longtitle: "Flywing segmentation and denoising"
 inputimage: "images/denoiseg/flywing-input.jpg"
 outputimage: "images/denoiseg/flywing-output.jpg"
 tool: denoiseg
+inoutdata: noisy_gt
 ---
 
 ## Authorship
@@ -20,3 +21,4 @@ We observe that some errors are present in segmentation result which is to be ex
 ## Demo
 
 To reproduce this experiment with our Jupyter notebooks, [follow these instructions](https://github.com/juglab/DenoiSeg).
+

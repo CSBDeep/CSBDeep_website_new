@@ -6,6 +6,7 @@ longtitle: "Retina Isotropic Reconstruction"
 inputimage: "images/care/isonet/isonet_retina_input.png"
 outputimage: "images/care/isonet/isonet_retina_network.png"
 tool: care
+inoutdata: noisy_gt
 videos:
   - url: "MzMJxApA7IQ"
     description: "Using CARE to computationally increase axial resolution of an imaged zebrafish retina to de-facto isometric resolution."  

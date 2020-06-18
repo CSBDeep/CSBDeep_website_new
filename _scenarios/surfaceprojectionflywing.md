@@ -6,6 +6,7 @@ longtitle: "Flywing Surface Projection"
 inputimage: "images/care/projection/projection_flywing_magma_input.png"
 outputimage: "images/care/projection/projection_flywing_magma_network.png"
 tool: care
+inoutdata: noisy_gt
 videos:
   - url: "R86UmgKVkuM"
     description: "Results on the composite task of joint surface projection and denoising (on a developing *D. melanogaster* wing)."  

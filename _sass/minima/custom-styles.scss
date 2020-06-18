@@ -372,6 +372,20 @@ section{
 	z-index: 0;
 }
 
+.box, .tools-subgroup {
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.tools-subgroup-title {
+	padding: 0;
+	margin: 0;
+}
+
+.tools-subgroup-title h5 {
+    margin: 10px 0 0 0;
+}
+
 .boxborder, .tools-group {
 	box-shadow: 0 0 35px 5px rgba(0,0,0,.15);
 	background: rgba(255,255,255,0.6);
