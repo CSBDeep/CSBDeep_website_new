@@ -18,6 +18,6 @@ Raw noisy input with denoised and segmentation outputs of a trained DenoiSeg Net
 
  We observe that some errors are present in segmentation result which is to be expected since the network was trained on very limited segmentation annotations. But the errors are significantly lesser as compared to results obtained with other baselines trained with limited ground truth annotations. To compare our results with other baselines, [check this page](https://github.com/juglab/DenoiSeg/wiki/Quantitative-segmentation-comparison-for-Mouse-dataset).
 
- ## Demo
+## Demo
 
- To reproduce this experiment with our Jupyter notebooks, [follow these instructions](https://github.com/juglab/DenoiSeg).
+To reproduce this experiment with our Jupyter notebooks, [follow these instructions](https://github.com/juglab/DenoiSeg).
