@@ -106,7 +106,7 @@
   
       ,"page9": {
           "title": "Gallery",
-          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising Planaria | Denoising Trobium | Isonet Retina | Denoising SEM | Reconstr. of Microtubules | Projection Flywing | . scroll to see reconstructions... Planaria 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Tribolium 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Retina Isotropic Reconstruction . How was this done? Read more here. . scroll to see reconstructions... SEM 2D Denoising . How was this done? Read more here. . scroll to see reconstructions... Microtubules Deconvolution . How was this done? Read more here. . scroll to see reconstructions... Flywing Surface Projection . How was this done? Read more here. .",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising 2D Human U2OS | Denoising Planaria | Denoising Trobium | Isonet Retina | Denoising SEM | Reconstr. of Microtubules | Projection Flywing | . scroll to see reconstructions... Human U2OS 2D Denoising . How was this done? Read more here. . scroll to see reconstructions... Planaria 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Tribolium 3D Denoising . How was this done? Read more here. . scroll to see reconstructions... Retina Isotropic Reconstruction . How was this done? Read more here. . scroll to see reconstructions... SEM 2D Denoising . How was this done? Read more here. . scroll to see reconstructions... Microtubules Deconvolution . How was this done? Read more here. . scroll to see reconstructions... Flywing Surface Projection . How was this done? Read more here. .",
           "url": "https://frauzufall.github.io/csbdeep-testsite/tools/care/gallery",
           "relUrl": "/tools/care/gallery",
           "date": ""
@@ -150,7 +150,7 @@
   
       ,"page13": {
           "title": "",
-          "content": "Image restoration Pairs of noisy and clean images: . Planaria 3D Denoising Tribolium 3D Denoising Drosophila Isotropic Reconstruction Retina Isotropic Reconstruction Microtubules Deconvolution Flywing Surface Projection Pairs of noisy images: . SEM 2D Denoising Single noisy images: . SEM 2D Denoising Something Denoising Object detection Flywing segmentation and denoising Mouse nuclei segmentation and denoising Segmenting something with StarDist",
+          "content": "Image restoration Pairs of noisy and clean images: . Human U2OS 2D Denoising Planaria 3D Denoising Tribolium 3D Denoising Drosophila Isotropic Reconstruction Retina Isotropic Reconstruction Microtubules Deconvolution Flywing Surface Projection Pairs of noisy images: . SEM 2D Denoising Single noisy images: . SEM 2D Denoising Something Denoising Object detection Flywing segmentation and denoising Mouse nuclei segmentation and denoising Segmenting something with StarDist",
           "url": "https://frauzufall.github.io/csbdeep-testsite/scenarios",
           "relUrl": "/scenarios",
           "date": ""
