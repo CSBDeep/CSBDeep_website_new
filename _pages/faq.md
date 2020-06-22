@@ -19,4 +19,7 @@ These trained networks can be shared distributed to others e.g. as ZIP files.
 
 ## How do I know if a pretrained network will solve my problem?
 
+## GPU Support
+We have collected resources for how to make GPU support work in Fiji on [this page](). TODO
+
 ## I made something new based on CSBDeep!
