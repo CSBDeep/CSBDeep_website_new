@@ -9,6 +9,8 @@ teaser: images/denoiseg/denoiseg-teaser.jpg
 showoverview: true
 --- 
 
+TODO method description
+
 [How to use DenoiSeg in Python](https://github.com/juglab/denoiseg/){:target="_blank" class="external"}
 [How to use DenoiSeg in Fiji](https://imagej.net/denoiseg){:target="_blank" class="external"}
 [How to export trained DenoiSeg networks from Python for Fiji](){:target="_blank" class="external"}
