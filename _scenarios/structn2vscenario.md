@@ -3,7 +3,7 @@ slug: "structn2vscenario"
 pretitle: "Denoising"
 shorttitle: "convallaria"
 longtitle: "Convallaria 2D structured Denoising"
-inputimage: "images/n2v/struct-n2v-input-convallaria.jpg"
+inputimage: "images/n2v/struct-n2v-inpu-convallaria.jpg"
 outputimage: "images/n2v/struct-n2v-output-convallaria.jpg"  
 tool: n2v
 inoutdata: noisy_void
