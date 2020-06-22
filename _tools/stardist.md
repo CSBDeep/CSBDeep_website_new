@@ -8,7 +8,9 @@ trainingdata: "Matching pairs of raw data and segmented data."
 purpose: "Object detection."
 teaser: images/stardist_overview.png
 ---
-https://github.com/juglab/n2v/
+
+TODO method description
+
 [How to use StarDist in Python](https://github.com/mpicbg-csbd/stardist){:target="_blank" class="external"}
 [How to use StarDist in Fiji](https://imagej.net/StarDist){:target="_blank" class="external"}
 [How to cite StarDist](https://github.com/mpicbg-csbd/stardist#how-to-cite){:target="_blank" class="external"}
