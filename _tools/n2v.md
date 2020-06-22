@@ -12,7 +12,7 @@ showoverview: true
 TODO method description
 
 [How to use N2V in Python](https://github.com/juglab/n2v/){:target="_blank" class="external"}
-[How to use N2V in Fiji](https://imagej.net/n2v){:target="_blank" class="external"}
+[How to use N2V in Fiji](https://imagej.net/N2V){:target="_blank" class="external"}
 [How to export trained N2V networks from Python for Fiji](){:target="_blank" class="external"}
 
 ## Structured noise
@@ -21,7 +21,7 @@ While the original Noise2Void implementation can only remove pixel independent n
 Read and cite [this paper by C. Broaddus et al.](https://ieeexplore.ieee.org/document/9098336) for reference.
 
 [How to use StructN2V in Python](MISSING){:target="_blank" class="external"}
-[How to use StructN2V in Fiji](MISSING){:target="_blank" class="external"}
+[How to use StructN2V in Fiji](){:target="_blank" class="external"} (coming soon)
 
 ## ![]({{ 'images/icons/source_black.png' | relative_url }}) Source code 
 
