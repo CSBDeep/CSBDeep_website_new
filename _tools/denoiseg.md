@@ -5,7 +5,7 @@ layout: toolpage-denoiseg
 outputtype: objects
 trainingdata: "Noisy images, some of them with existing segmentation."
 purpose: "Image restoration and object detection."
-teaser: images/denoiseg/denoiseg-teaser.jpg
+teaser: images/denoiseg/denoiseg_header.png
 showoverview: true
 --- 
 
