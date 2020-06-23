@@ -431,9 +431,9 @@ section { flex: 1; display: flex; flex-direction: column; justify-content: cente
 
 .post-content h1, .post-content h2, .post-content h3 { background: #f9f9fa; margin: 10px -10px 10px -10px; padding: 10px 20px 10px 10px; }
 
-.contact { margin: 10px 10px 10px -10px; display: flex; }
+.contact { margin: 10px -20px 10px -10px; display: flex; }
 
-.contact a { color: #711673; background: rgba(255, 255, 255, 0.7); padding: 10px; margin-right: 10px; }
+.contact a { color: #711673; background: rgba(255, 255, 255, 0.7); padding: 10px; margin-right: 10px; flex: 1; }
 
 .line, article { max-width: 950px; min-width: 950px; display: flex; flex: none; margin: 10px 0 0 0; flex-direction: column; }
 
