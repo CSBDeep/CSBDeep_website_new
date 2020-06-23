@@ -383,7 +383,10 @@ section{
 }
 
 .tools-subgroup-title h5 {
-    margin: 10px 0 0 0;
+    margin: 10px 5px 10px 10px;
+    background: #711673;
+    color: white;
+    padding: 10px;
 }
 
 .boxborder, .tools-group {
@@ -856,12 +859,13 @@ ul.headerlink {
 }
 
 .tools-group .title {
-    margin: -10px -10px 10px -10px;
+    margin: 0px -10px 10px -10px;
     padding: 15px;
     height: 60px;
     line-height: 30px;
     font-size: 23px;
     border-bottom: 1px solid #f1f1f3;
+    font-weight: bold;
 }
 
 .tools-group img {
