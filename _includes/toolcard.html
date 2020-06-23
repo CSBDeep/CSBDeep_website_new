@@ -1,6 +1,6 @@
 {% assign tool = site.tools | where_exp:"item", "item.slug == include.tool" | first %}
 <a href="{{ tool.url | relative_url }}" class="toolcard box boxborder">
-    <span>Made with</span>
+    <span>Used CSBDeep tool:</span>
     <span class="title">{{ tool.name }}</span>
     <span class="description">If you want to reconstruct this scenario or apply it to your own data, read this page and follow the instructions for {{ tool.name }} (click on this box).</span>
 </a>
