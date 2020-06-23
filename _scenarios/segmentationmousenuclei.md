@@ -4,6 +4,8 @@ pretitle: "Segmentation"
 shorttitle: "Denoising and Segmentation (2D)"
 longtitle: "Denoising and Segmentation in 2D (Mouse nuclei)"
 image: "images/denoiseg/denoiseseg_header.png"
+inputimage: "images/denoiseg/mousenuclei-input.jpg"
+outputimage: "images/denoiseg/mousenuclei-output.jpg"
 tool: denoiseg
 inoutdata: noisy_gt
 ---
