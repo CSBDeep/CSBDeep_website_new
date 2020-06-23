@@ -2,7 +2,7 @@
 slug: "isonetdrosophila"
 pretitle: "Isonet"
 shorttitle: "Isotropic Reconstruction"
-longtitle: "Isotropic Reconstruction (Drosophila wing, e-cadherin)"
+longtitle: "Isotropic Reconstruction (Drosophila nuclei)"
 tool: care
 inoutdata: noisy_gt
 videos:
