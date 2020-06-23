@@ -3,6 +3,8 @@ slug: "isonetdrosophila"
 pretitle: "Isonet"
 shorttitle: "Isotropic Reconstruction"
 longtitle: "Isotropic Reconstruction (Drosophila nuclei)"
+inputimage: "images/care/isonet/iso-droso-input.png"
+outputimage: "images/care/isonet/iso-droso-output.png"
 tool: care
 inoutdata: noisy_gt
 videos:
