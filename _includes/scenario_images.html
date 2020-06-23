@@ -1,6 +1,6 @@
 {% if include.scenario.outputimage %}
-<div class="preview">
+<a class="showpreview preview">
     <div class="previewimage" style="background-image: url({{ include.scenario.inputimage | relative_url}});"></div>
     <div class="previewimage" style="background-image: url({{ include.scenario.outputimage | relative_url}});"></div>
-</div>
+</a>
 {% endif %}

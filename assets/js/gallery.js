@@ -26,7 +26,7 @@ $(function() {
 
     }
 
-	$( "#inspect-result-link" ).click(function() {
+	$( ".showpreview" ).click(function() {
         $( "#inspect-result" ).show();
         $( "body" ).css({"overflow": "hidden"});
     });

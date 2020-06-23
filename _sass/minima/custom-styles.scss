@@ -979,6 +979,10 @@ a.toolcard:hover, #inspect-result-link:hover {
     padding: 10px 20px;
 }
 
+.showpreview,#inspect-result {
+    cursor: pointer;
+}
+
 #inspect-result {
     display: none;
     width: 100%;
