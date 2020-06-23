@@ -13,7 +13,7 @@ The field of image denoising is currently dominated by discriminative deep learn
 
 [How to use N2V in Python](https://github.com/juglab/n2v/){:target="_blank" class="external"}
 [How to use N2V in Fiji](https://imagej.net/N2V){:target="_blank" class="external"}
-[How to export trained N2V networks from Python for Fiji](){:target="_blank" class="external"}
+[How to export trained N2V networks from Python for Fiji](https://imagej.net/N2V#Exporting_trained_models_from_Python_to_ImageJ_.2F_Fiji){:target="_blank" class="external"}
 
 ## Structured noise
 
