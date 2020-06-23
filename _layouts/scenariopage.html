@@ -12,6 +12,7 @@ layout: default
         </div>
 
         <h1>{{ page.longtitle }}</h1>
+        {% include scenario_images.html scenario=page %}
 
         {{ content | markdownify }}
 
