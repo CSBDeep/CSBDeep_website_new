@@ -14,7 +14,7 @@ This example demonstrates how a denoiser can be trained when only noisy data is 
 
 [Noise2Noise](https://arxiv.org/abs/1803.04189) was first proposed by Lehtinen _et al._ and states that multiple noisy observations of the same structure are sufficient to train content aware image restoration networks. This means that we can replace the ground truth target images with additional noisy acquisitions. This opens the door to many new applications where the acquisition of ground truth data is impossible or very time-consuming.
 
-__Note:__ If you happen to have the possibility to acquire pairs of noisy and clean (ground truth) images, we recommended to use such clean data by training a supervised denoiser. For this, please have a look at the 2D denoising scenario.
+__Note:__ If you happen to have the possibility to acquire pairs of noisy and clean (ground truth) images, we recommended to use such clean data by training a supervised denoiser. For this, please have a look at the <a href="{{ '/scenarios/denoising2D_HumanU2OS' | prepend: site.baseurl }}">2D denoising scenario</a>.
 
 ## Credits
 The data was acquired by Réza Shahidi and Gáspár Jékely at University of Exeter and originates from this publication: [Content-aware image restoration for electron microscopy](https://books.google.de/books?hl=en&lr=&id=rn2jDwAAQBAJ&oi=fnd&pg=PA277&dq=info:41WW__W36dwJ:scholar.google.com&ots=xdqzPRk19v&sig=9sxVkiynLPCj9IhHoolchoxTT_U&redir_esc=y#v=onepage&q&f=true) by Tim-Oliver Buchholz _et al._
