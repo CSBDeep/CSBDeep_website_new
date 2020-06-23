@@ -1,7 +1,7 @@
 ---
 slug: "denoisingsem"
 pretitle: "Denoising"
-shorttitle: "Denoising N2N with multiple noisy copies"
+shorttitle: "2D SEM data"
 longtitle: "Denoising Noise2Noise with multiple noisy copies (2D SEM data)"
 inputimage: "images/n2n/sem_input.png"
 outputimage: "images/n2n/sem_output.png"  

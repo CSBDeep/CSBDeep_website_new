@@ -2,7 +2,7 @@
 slug: "stardistscenario"
 pretitle: "Segmentation"
 shorttitle: "Object Segmentation"
-longtitle: "Object Segmentation with StarDist"
+longtitle: "DSB2018"
 inputimage: "images/stardist/stardist-input.jpg"
 outputimage: "images/stardist/stardist-output.jpg"  
 tool: stardist

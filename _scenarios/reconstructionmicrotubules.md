@@ -1,7 +1,7 @@
 ---
 slug: "tubulessrrf"
 pretitle: "Deconvolution"
-shorttitle: "Deconvolution"
+shorttitle: "Microtubules"
 longtitle: "Deconvolution (Microtubules)"
 inputimage: "images/care/tubules/tubules_srrf_input_hot.png"
 outputimage: "images/care/tubules/tubules_srrf_network_hot.png"

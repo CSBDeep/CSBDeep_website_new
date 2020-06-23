@@ -1,7 +1,7 @@
 ---
 slug: "denoisingU2OS"
-pretitle: "Denoising"
-shorttitle: "Denoising in 2D"
+pretitle: "2D Denoising"
+shorttitle: "human U2OS"
 longtitle: "Denoising in 2D (human U2OS data)"
 inputimage: "images/care/denoising/u2os_2d_denoising_input.png"
 outputimage: "images/care/denoising/u2os_2d_denoising_output.png"

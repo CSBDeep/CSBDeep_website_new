@@ -1,7 +1,7 @@
 ---
 slug: "segmentationflywing"
 pretitle: "Segmentation"
-shorttitle: "Denoising and Segmentation (2D)"
+shorttitle: "Drosophila wing"
 longtitle: "Denoising and Segmentation in 2D (Drosophila wing, e-cadherin)"
 inputimage: "images/denoiseg/flywing-input.jpg"
 outputimage: "images/denoiseg/flywing-output.jpg"

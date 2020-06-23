@@ -1,7 +1,7 @@
 ---
 slug: "astronomy"
-pretitle: "Denoising"
-shorttitle: "Denoising in 3D"
+pretitle: "3D Denoising"
+shorttitle: "Tribolium"
 longtitle: "Denoising in 3D (Tribolium nuclei)"
 inputimage: "images/care/denoising/denoising_tribolium_magma_input.png"
 outputimage: "images/care/denoising/denoising_tribolium_magma_network.png"

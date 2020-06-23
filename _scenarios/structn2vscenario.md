@@ -1,7 +1,7 @@
 ---
 slug: "structn2vscenario"
 pretitle: "Denoising"
-shorttitle: "Denoising structured noises"
+shorttitle: "Convallaria"
 longtitle: "Denoising structured noises without clean data (Convallaria)"
 inputimage: "images/n2v/struct-n2v-inpu-convallaria.jpg"
 outputimage: "images/n2v/struct-n2v-output-convallaria.jpg"  
