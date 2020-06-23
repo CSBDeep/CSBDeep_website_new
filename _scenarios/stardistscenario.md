@@ -1,8 +1,8 @@
 ---
 slug: "stardistscenario"
-pretitle: "Segmenting"
-shorttitle: "Somethings"
-longtitle: "Segmenting something with StarDist"
+pretitle: "Segmentation"
+shorttitle: "Object Segmentation"
+longtitle: "Object Segmentation with StarDist"
 inputimage: "images/stardist/input.jpg"
 outputimage: "images/stardist/output.jpg"  
 tool: stardist

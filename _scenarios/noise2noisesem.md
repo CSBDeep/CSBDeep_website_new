@@ -1,8 +1,8 @@
 ---
 slug: "denoisingsem"
 pretitle: "Denoising"
-shorttitle: "SEM"
-longtitle: "Denoising: no clean data available; 2D scanning EM (SEM)"
+shorttitle: "Denoising N2N with multiple noisy copies"
+longtitle: "Denoising Noise2Noise with multiple noisy copies (2D SEM data)"
 inputimage: "images/n2n/sem_input.png"
 outputimage: "images/n2n/sem_output.png"  
 tool: care

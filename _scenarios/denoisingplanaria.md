@@ -1,8 +1,8 @@
 ---
 slug: "denoisingplanaria"
 pretitle: "Denoising"
-shorttitle: "Planaria"
-longtitle: "Planaria 3D Denoising"
+shorttitle: "Denoising in 3D”
+longtitle: "Denoising in 3D (Planaria nuclei)"
 inputimage: "images/care/denoising/denoising_planaria_magma_input.png"
 outputimage: "images/care/denoising/denoising_planaria_magma_network.png"
 inoutdata: noisy_gt

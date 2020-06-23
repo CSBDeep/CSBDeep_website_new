@@ -1,8 +1,8 @@
 ---
 slug: "projectionflywing"
 pretitle: "Projection"
-shorttitle: "Flywing"
-longtitle: "Flywing Surface Projection"
+shorttitle: "Surface Projection"
+longtitle: "Surface Projection (Drosophila wing, e-cadherin)"
 inputimage: "images/care/projection/projection_flywing_magma_input.png"
 outputimage: "images/care/projection/projection_flywing_magma_network.png"
 tool: care

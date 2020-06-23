@@ -1,8 +1,8 @@
 ---
 slug: "segmentationmousenuclei"
 pretitle: "Segmentation"
-shorttitle: "Mouse nuclei"
-longtitle: "Mouse nuclei segmentation and denoising"
+shorttitle: "Denoising and Segmentation (2D)"
+longtitle: "Denoising and Segmentation in 2D (Mouse nuclei)"
 image: "images/denoiseg/denoiseseg_header.png"
 tool: denoiseg
 inoutdata: noisy_gt

@@ -1,8 +1,8 @@
 ---
 slug: "denoisingsem"
 pretitle: "Denoising"
-shorttitle: "SEM"
-longtitle: "SEM 2D Denoising"
+shorttitle: "Denoising N2V without clean data"
+longtitle: "Denoising Noise2Void without clean data (2D SEM data)"
 inputimage: "images/n2v/input.jpg"
 outputimage: "images/n2v/output.jpg"  
 tool: n2v
