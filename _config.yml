@@ -10,11 +10,11 @@ title: CSBDeep
 description: A toolbox for Content-aware Image Restoration.
 github_username: frauzufall
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "csbdeep-testsite"
+github_repo: "CSBDeep_website_new"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
-url: "https://frauzufall.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://csbdeep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
@@ -34,7 +34,7 @@ url: "https://frauzufall.github.io" # the base hostname & protocol for your site
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/csbdeep-testsite" # the subpath of your site, e.g. "/blog".
+baseurl: "/CSBDeep_website_new" # the subpath of your site, e.g. "/blog".
 
 # Set this to true to get LaTeX math equation support
 use_math: 
