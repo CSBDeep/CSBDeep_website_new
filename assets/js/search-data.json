@@ -4,7 +4,7 @@
         "post0": {
             "title": "Updating Website",
             "content": "Working on improving CSBDeep documentation . We are working on collecting all CSBDeep documentation resources at one place. Here’s the plan: . Collect resources | Decide which information to copy to a joint documentation page and where to just keep links to existing pages | Integrate existing https://csbdeep.bioimagecomputing.com/ design | Add FAQs where it makes sense | Add guide for how to start - from Biologist’s perspective (I have problem X - can CSBDeep help me and if yes, how?) | Replace current https://csbdeep.bioimagecomputing.com/ content with new content | Announce |",
-            "url": "https://csbdeep.bioimagecomputing.com/new/csbdeep/documentation/2020/03/11/updating-website.html",
+            "url": "https://csbdeep.github.io/CSBDeep_website_new/csbdeep/documentation/2020/03/11/updating-website.html",
             "relUrl": "/csbdeep/documentation/2020/03/11/updating-website.html",
             "date": " • Mar 11, 2020"
         }
@@ -19,7 +19,7 @@
       ,"page1": {
           "title": "About CSBDeep",
           "content": "About CSBDeep . CSBDeep is a toolbox for Content-aware Image Restoration (CARE). .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/about/",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/about/",
           "relUrl": "/about/",
           "date": ""
       }
@@ -30,7 +30,7 @@
       ,"page2": {
           "title": "Contact",
           "content": "Do you have a question regarding the described use cases or tools? Please ask in the image.sc forum. . Otherwise please contact the authors of the tools directly as referenced in the tool’s citation. .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/contact",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/contact",
           "relUrl": "/contact",
           "date": ""
       }
@@ -41,7 +41,7 @@
       ,"page3": {
           "title": "Credits",
           "content": "Credits . N2V Paper: https://arxiv.org/abs/1811.10980 . StructN2V Paper: https://ieeexplore.ieee.org/document/9098336 . How to cite: . @inproceedings{krull2019noise2void, title={Noise2void-learning denoising from single noisy images}, author={Krull, Alexander and Buchholz, Tim-Oliver and Jug, Florian}, booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages={2129--2137}, year={2019} } @inproceedings{9098336, author={C. {Broaddus} and A. {Krull} and M. {Weigert} and U. {Schmidt} and G. {Myers}}, booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)}, title={Removing Structured Noise with Self-Supervised Blind-Spot Networks}, pages={159-163}; year={2020} } .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/n2v/credits",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/credits",
           "relUrl": "/tools/n2v/credits",
           "date": ""
       }
@@ -52,7 +52,7 @@
       ,"page4": {
           "title": "Credits",
           "content": "Credits . Paper: https://arxiv.org/abs/2005.02987 . How to cite: . @inproceedings{BuchholzPrakash2020DenoiSeg, title={DenoiSeg: Joint Denoising and Segmentation}, author={Tim-Oliver Buchholz and Mangal Prakash and Alexander Krull and Florian Jug}, year={2020} } .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/denoiseg/credits",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/denoiseg/credits",
           "relUrl": "/tools/denoiseg/credits",
           "date": ""
       }
@@ -63,7 +63,7 @@
       ,"page5": {
           "title": "Credits",
           "content": "Credits . Related Publications . Please see the paper in Nature Methods. (Preprint on bioRxiv) . Supplementary material can be downloaded here. . Authors and Contributors . Martin Weigert [1,2,*], Uwe Schmidt[1,2], Tobias Boothe[2], Andreas Müller[8,9,10], Alexandr Dibrov[1,2], Akanksha Jain[2], Benjamin Wilhelm[1,6], Deborah Schmidt[1], Coleman Broaddus[1,2], Siân Culley[4,5], Mauricio Rocha-Martins[1,2], Fabián Segovia-Miranda[2], Caren Norden[2], Ricardo Henriques[4,5], Marino Zerial[1,2], Michele Solimena[2,8,9,10], Jochen Rink[2], Pavel Tomancak[2], Loic Royer[1,2,7,*], Florian Jug[1,2,*] &amp; Eugene W. Myers[1,2,3] . [1] Center for Systems Biology Dresden (CSBD), Dresden, Germany [2] Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany [3] Department of Computer Science, Technical University Dresden [4] MRC Laboratory for Molecular Cell Biology, University College London, London, UK [5] The Francis Crick Institute, London, UK [6] University of Konstanz, Konstanz, Germany [7] CZ Biohub, San Francisco, USA [8] Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany [9] Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany [10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany [*] Co-corresponding authors. . Acknowledgements . The authors want to thank Philipp Keller (Janelia) who provided Drosophila data. We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke Sönmez for cell culture work. We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B). We thank Benoit Lombardot from the Scientific Computing Facility (MPI-CBG). We thank the following Services and Facilities of the MPI-CBG for their support: Computer Department, Light Microscopy Facility (LMF) and Fish Facility. This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II). M.S. was supported by the German Center for Diabetes Research (DZD e.V.). R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z). .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/care/credits",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/care/credits",
           "relUrl": "/tools/care/credits",
           "date": ""
       }
@@ -74,7 +74,7 @@
       ,"page6": {
           "title": "FAQ",
           "content": "Frequently Asked Questions . How long do I have to train? . Longer. 100 sepochs with 300 steps each for example. . How much data do I need for training? . Don’t go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, … The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the “train on folder” command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation. . What about SEM / TEM / CMOS? . Do training and test data need to be of the same dimensions? . No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it’ll split them up again into batches internally. .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/n2v/faq",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/faq",
           "relUrl": "/tools/n2v/faq",
           "date": ""
       }
@@ -85,7 +85,7 @@
       ,"page7": {
           "title": "Frequently Asked Questions",
           "content": "What is training? . Artificial neural networks are designed to solve specific tasks, like denoising an image or segmenting cells. Networks need to be trained. The training process includes feeding data into the network. The network will then learn characteristics of the input and it’s weights will iteratively be adjusted to solve the problem specific to the provided input data. . What is prediction? . A trained network can be used to guess the solution for a specific input. It does not need to be the same data which was used for training, but the network can return unexpected results if the input data varies too much from the training data. While training takes hours to complete, prediction is much faster. . I don’t want to train (long). . Me neither! But chances are high this will strongly improve the quality of the result and will avoid cases where a network predicts reasonable looking data which has nothing to do with reality. This is a serious risk of using artificial neural networks. . Some networks are trained on a wide range of data and can be generally useful. Or someone else has capacities to train a network on the type of images you want to apply prediction onto. These trained networks can be shared distributed to others e.g. as ZIP files. . How do I know if a pretrained network will solve my problem? . GPU Support . We have collected resources for how to make GPU support work in Fiji on this page. TODO . I made something new based on CSBDeep! .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/faq",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/faq",
           "relUrl": "/faq",
           "date": ""
       }
@@ -96,7 +96,7 @@
       ,"page8": {
           "title": "Gallery",
           "content": "Gallery . Please scroll through the image area to watch all examples. . Denoising single images 2D SEM data | Denoising Convallaria | . scroll to see reconstructions... Denoising Noise2Void without clean data (2D SEM data) . How was this done? Read more here. . scroll to see reconstructions... Denoising structured noises without clean data (Convallaria) . How was this done? Read more here. .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/n2v/gallery",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/gallery",
           "relUrl": "/tools/n2v/gallery",
           "date": ""
       }
@@ -107,7 +107,7 @@
       ,"page9": {
           "title": "Gallery",
           "content": "Gallery . Please scroll through the image area to watch all examples. . Deconvolution Microtubules | Denoising 2D SEM data | 2D Denoising human U2OS | 3D Denoising Planaria nuclei | 3D Denoising Tribolium | Isonet Drosophila | Isonet Retina | Projection Flywing | . scroll to see reconstructions... Deconvolution (Microtubules) . How was this done? Read more here. . scroll to see reconstructions... Denoising Noise2Noise with multiple noisy copies (2D SEM data) . How was this done? Read more here. . scroll to see reconstructions... Denoising in 2D (human U2OS data) . How was this done? Read more here. . scroll to see reconstructions... Denoising in 3D (Planaria nuclei) . How was this done? Read more here. . scroll to see reconstructions... Denoising in 3D (Tribolium nuclei) . How was this done? Read more here. . scroll to see reconstructions... Isotropic Reconstruction (Drosophila nuclei) . How was this done? Read more here. . scroll to see reconstructions... Isotropic Reconstruction (Zebrafish retina) . How was this done? Read more here. . scroll to see reconstructions... Surface Projection (Drosophila wing, e-cadherin) . How was this done? Read more here. .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/care/gallery",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/care/gallery",
           "relUrl": "/tools/care/gallery",
           "date": ""
       }
@@ -118,7 +118,7 @@
       ,"page10": {
           "title": "Impressum",
           "content": "Information in accordance with section 5 TMG . Contact . Jug Lab Center for Systems Biology Dresden . Max Planck Institute of Molecular Cell Biology and Genetics Florian Jug Pfotenhauerstr. 108 01307 Dresden Germany . Email: jug@mpi-cbg.de . Website: https://www.mpi-cbg.de/en/research-groups/current-groups/florian-jug . Provider . The provider of this Internet site within the legal meaning of the term is the registered association Max Planck Society for the Advancement of Science e.V. . Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. Hofgartenstrasse 8 80539 Munich Germany . Phone: +49 89 2108-0 Internet: www.mpg.de Email pressegv.mpg.de . Register of Societies and Associations . The Max Planck Society is registered in the Official Register of Societies and Associations at Berlin-Charlottenburg Local Court under the register number VR 13378 B. . Representatives . The Max Planck Society is legally represented by its Board of Directors, which, in turn, is represented by the President of the Society, Prof. Dr. Martin Stratmann, and by the Secretary General Rüdiger Willems. Value Added Tax Identification Number . The value added tax identification number of the Max Planck Society is DE 129517720. . Legal Structure . The Max Planck Society is a non-profit research facility which is organized as a registered association. All of the institutes and facilities of the Max Planck Society are largely autonomous in terms of organization and research, but as a rule have no legal capacity of their own. . Liability for Contents of Online Information . As the provider of contents in accordance with Section 7 Paragraph 1 of the Tele-Media Law, the Max Planck Society shall be responsible for any contents which it makes available for use in accordance with general legal provisions. The Max Planck Society makes every effort to provide timely and accurate information on this Web site. Nevertheless, errors and inaccuracies cannot be completely ruled out. Therefore, the Max Planck Society does not assume any liability for the relevance, accuracy, completeness or quality of the information provided. The Max Planck Society shall not be liable for damage of a tangible or intangible nature caused directly or indirectly through the use or failure to use the information offered and/or through the use of faulty or incomplete information unless it is verifiably culpable of intent or gross negligence. The same shall apply to any downloadable software available free of charge. The Max Planck Society reserves the right to modify, supplement, or delete any or all of the information offered on its Internet site, or to temporarily or permanently cease publication thereof without prior and separate notification. . Links to Internet Sites of Third Parties/Disclaimer . This Internet site includes links to external pages. These external links are indicated by a straight arrow. The respective provider shall be responsible for the contents of any linked external pages. In establishing the initial link, the Max Planck Society has reviewed the respective external content in order to determine whether such link entailed possible civil or criminal responsibility. However, a constant review of linked external pages is unreasonable without concrete reason to believe that a violation of the law may be involved. If the Max Planck Society determines such or it is pointed out by others that an external offer to which it is connected via a link entails civil or criminal responsibility, then the Max Planck Society will immediately eliminate any link to this offer. The Max Planck Society expressly dissociates itself from such contents. . Copyright . The layout, graphics employed and any other contents on the homepage of the CSBDeep Internet site are protected by copyright law. © MPI-CBG, Dresden. All rights reserved. .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/impressum",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/impressum",
           "relUrl": "/impressum",
           "date": ""
       }
@@ -129,7 +129,7 @@
       ,"page11": {
           "title": "",
           "content": "CSBDeep - a deep learning toolbox for microscopy image restoration and analysis . Fluorescence microscopy is a key driver of discoveries in life-sciences, and the CSBDeep toolbox is offering a collection of state-of-the-art methods for content-aware image restoration and segmentation. On this website we showcase a number of real-world scenarios that might be useful in the context of your own work. Additionally, we will describe the respective methods and tools we provide and link to further resources wherever we can. . The entire CSBDeep toolbox is fully open source and intended to be used from either Python or Fiji. .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/",
           "relUrl": "/",
           "date": ""
       }
@@ -140,7 +140,7 @@
       ,"page12": {
           "title": "News",
           "content": "",
-          "url": "https://csbdeep.bioimagecomputing.com/new/news/",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/news/",
           "relUrl": "/news/",
           "date": ""
       }
@@ -151,7 +151,7 @@
       ,"page13": {
           "title": "",
           "content": "Image restoration Image restoration with pairs of noisy and clean images: . Deconvolution (Microtubules) Denoising in 2D (human U2OS data) Denoising in 3D (Planaria nuclei) Denoising in 3D (Tribolium nuclei) Isotropic Reconstruction (Drosophila nuclei) Isotropic Reconstruction (Zebrafish retina) Surface Projection (Drosophila wing, e-cadherin) Image restoration with pairs of noisy images: . Denoising Noise2Noise with multiple noisy copies (2D SEM data) Image restoration with single noisy images: . Denoising Noise2Void without clean data (2D SEM data) Denoising structured noises without clean data (Convallaria) Object detection DSB2018 Denoising and Segmentation in 2D (Drosophila wing, e-cadherin) Denoising and Segmentation in 2D (Mouse nuclei)",
-          "url": "https://csbdeep.bioimagecomputing.com/new/scenarios",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/scenarios",
           "relUrl": "/scenarios",
           "date": ""
       }
@@ -172,7 +172,7 @@
       ,"page18": {
           "title": "",
           "content": "Tools available within CSBDeep: . {% for tool in site.tools %} {{ tool.name }} &lt;span class=&quot;meta&quot;&quot;&gt; Training data: {{ tool.trainingdata }} Purpose: {{ tool.purpose }} &lt;/span&gt; {% endfor %}",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools",
           "relUrl": "/tools",
           "date": ""
       }
@@ -183,7 +183,7 @@
       ,"page19": {
           "title": "Videos",
           "content": "![]({{ ‘images/icons/videos_black.png’ | relative_url }}) Videos . {% include videos.html tool=’care’ %} .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/care/videos",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/care/videos",
           "relUrl": "/tools/care/videos",
           "date": ""
       }
@@ -194,7 +194,7 @@
       ,"page20": {
           "title": "Videos",
           "content": "![]({{ ‘images/icons/videos_black.png’ | relative_url }}) Videos . {% include videos.html tool=’n2v’ %} .",
-          "url": "https://csbdeep.bioimagecomputing.com/new/tools/n2v/videos",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/videos",
           "relUrl": "/tools/n2v/videos",
           "date": ""
       }
