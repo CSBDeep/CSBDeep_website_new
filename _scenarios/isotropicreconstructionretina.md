@@ -2,7 +2,7 @@
 slug: "isonetretina"
 pretitle: "Isonet"
 shorttitle: "Isotropic Reconstruction"
-longtitle: "Isotropic Reconstruction (Z-Fish retina)"
+longtitle: "Isotropic Reconstruction (Zebrafish retina)"
 inputimage: "images/care/isonet/isonet_retina_input.png"
 outputimage: "images/care/isonet/isonet_retina_network.png"
 tool: care
