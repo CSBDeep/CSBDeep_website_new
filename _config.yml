@@ -102,6 +102,7 @@ collections:
     scenarios:
       output: true
       permalink: /scenarios/:path/
+      sort_by: longtitle
 
 defaults:
   - scope:
