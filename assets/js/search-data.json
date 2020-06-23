@@ -150,7 +150,7 @@
   
       ,"page13": {
           "title": "",
-          "content": "Image restoration Pairs of noisy and clean images: . Denoising in 2D (human U2OS data) Denoising in 3D (Tribolium nuclei) Isotropic Reconstruction (Drosophila wing, e-cadherin) Isotropic Reconstruction (Z-Fish retina) Deconvolution (Microtubules) Surface Projection (Drosophila wing, e-cadherin) Pairs of noisy images: . Denoising Noise2Noise with multiple noisy copies (2D SEM data) Single noisy images: . Denoising Noise2Void without clean data (2D SEM data) Denoising structured noises without clean data (Convallaria) Object detection Denoising and Segmentation in 2D (Drosophila wing, e-cadherin) Denoising and Segmentation in 2D (Mouse nuclei) Object Segmentation with StarDist",
+          "content": "Image restoration Pairs of noisy and clean images: . Denoising in 2D (human U2OS data) Denoising in 3D (Tribolium nuclei) Isotropic Reconstruction (Drosophila nuclei) Isotropic Reconstruction (Z-Fish retina) Deconvolution (Microtubules) Surface Projection (Drosophila wing, e-cadherin) Pairs of noisy images: . Denoising Noise2Noise with multiple noisy copies (2D SEM data) Single noisy images: . Denoising Noise2Void without clean data (2D SEM data) Denoising structured noises without clean data (Convallaria) Object detection Denoising and Segmentation in 2D (Drosophila wing, e-cadherin) Denoising and Segmentation in 2D (Mouse nuclei) Object Segmentation with StarDist",
           "url": "https://frauzufall.github.io/csbdeep-testsite/scenarios",
           "relUrl": "/scenarios",
           "date": ""
