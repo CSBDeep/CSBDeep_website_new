@@ -2,6 +2,7 @@
 slug: stardist
 name: StarDist
 title: ""
+showoverview: true
 layout: toolpage-stardist
 outputtype: objects
 trainingdata: "Matching pairs of raw data and segmented data."
