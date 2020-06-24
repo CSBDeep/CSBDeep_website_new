@@ -15,6 +15,11 @@ Microscopy image analysis often requires the segmentation of objects, but traini
 [How to use DenoiSeg in Fiji](https://imagej.net/DenoiSeg){:target="_blank" class="external"}
 [How to export trained DenoiSeg networks from Python for Fiji](){:target="_blank" class="external"}
 
+## Setup and Exercises
+
+ * [Setup instructions](https://csbdeep.bioimagecomputing.com/exercises/Setup_DenoiSeg.pdf) to create a python training environment for CARE.
+ * [Exercise sheet](https://csbdeep.bioimagecomputing.com/exercises/Exercises_DenoiSeg.pdf) on how to train a CARE network (supervised and Noise2Noise).
+
 ## ![]({{ 'images/icons/source_black.png' | relative_url }}) Source code 
 
 {% include github_link.html url="juglab/DenoiSeg" text="DenoiSeg in Python" %}
