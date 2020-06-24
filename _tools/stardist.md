@@ -9,7 +9,11 @@ purpose: "Object detection."
 teaser: images/stardist_overview.png
 ---
 
-Automatic detection and segmentation of cells and nuclei in microscopy images is important for many biological applications. Recent successful learning-based approaches include per-pixel cell segmentation with subsequent pixel grouping, or localization of bounding boxes with subsequent shape refinement. In situations of crowded cells, these can be prone to segmentation errors, such as falsely merging bordering cells or suppressing valid cell instances due to the poor approximation with bounding boxes. To overcome these issues, we propose to localize cell nuclei via star-convex polygons, which are a much better shape representation as compared to bounding boxes and thus do not need shape refinement. To that end, we train a convolutional neural network that predicts for every pixel a polygon for the cell instance at that position. We demonstrate the merits of our approach on two synthetic datasets and one challenging dataset of diverse fluorescence microscopy images.
+
+StarDist is a deep learning based cell/nuclei detection method for microscopy images. StarDist uses round star-convex shapes as detection primitives and is thus well suited for noisy images with many crowded/touching objects that can be well approximated  by round shapes such as nuclei.
+
+For the full documentation and more detailed examples please have a look at the official [StarDist project page](https://github.com/mpicbg-csbd/stardist) or the [NEUBIAS Academy webinar](https://www.youtube.com/channel/UC-oy7UpEhRfHQ-5ePCviKFg).
+
 
 [How to use StarDist in Python](https://github.com/mpicbg-csbd/stardist){:target="_blank" class="external"}
 [How to use StarDist in Fiji](https://imagej.net/StarDist){:target="_blank" class="external"}
