@@ -2,7 +2,7 @@
 slug: "stardistscenario"
 pretitle: "Segmentation"
 shorttitle: "Object Segmentation"
-longtitle: "DSB2018"
+longtitle: "Nucleus Segmentation (DSB2018 dataset)"
 inputimage: "images/stardist/stardist-input.jpg"
 outputimage: "images/stardist/stardist-output.jpg"  
 tool: stardist
