@@ -15,6 +15,11 @@ The field of image denoising is currently dominated by discriminative deep learn
 [How to use N2V in Fiji](https://imagej.net/N2V){:target="_blank" class="external"}
 [How to export trained N2V networks from Python for Fiji](https://imagej.net/N2V#Exporting_trained_models_from_Python_to_ImageJ_.2F_Fiji){:target="_blank" class="external"}
 
+## Setup and Exercises
+
+ * [Setup instructions](https://csbdeep.bioimagecomputing.com/exercises/Setup_N2V.pdf) to create a python training environment for CARE.
+ * [Exercise sheet](https://csbdeep.bioimagecomputing.com/exercises/Exercises_N2V.pdf) on how to train a CARE network (supervised and Noise2Noise).
+
 ## Structured noise
 
 While the original Noise2Void implementation can only remove pixel independent noise, it got extended to also deal with structured noise.
