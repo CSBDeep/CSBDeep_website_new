@@ -40,17 +40,6 @@
   
       ,"page3": {
           "title": "Credits",
-          "content": "Credits . N2V Paper: https://arxiv.org/abs/1811.10980 . StructN2V Paper: https://ieeexplore.ieee.org/document/9098336 . How to cite: . @inproceedings{krull2019noise2void, title={Noise2void-learning denoising from single noisy images}, author={Krull, Alexander and Buchholz, Tim-Oliver and Jug, Florian}, booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages={2129--2137}, year={2019} } @inproceedings{9098336, author={C. {Broaddus} and A. {Krull} and M. {Weigert} and U. {Schmidt} and G. {Myers}}, booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)}, title={Removing Structured Noise with Self-Supervised Blind-Spot Networks}, pages={159-163}; year={2020} } .",
-          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/credits",
-          "relUrl": "/tools/n2v/credits",
-          "date": ""
-      }
-      
-  
-
-  
-      ,"page4": {
-          "title": "Credits",
           "content": "Credits . Paper: https://arxiv.org/abs/2005.02987 . How to cite: . @inproceedings{BuchholzPrakash2020DenoiSeg, title={DenoiSeg: Joint Denoising and Segmentation}, author={Tim-Oliver Buchholz and Mangal Prakash and Alexander Krull and Florian Jug}, year={2020} } .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/denoiseg/credits",
           "relUrl": "/tools/denoiseg/credits",
@@ -60,7 +49,7 @@
   
 
   
-      ,"page5": {
+      ,"page4": {
           "title": "Credits",
           "content": "Credits . Related Publications . Please see the paper in Nature Methods. (Preprint on bioRxiv) . Supplementary material can be downloaded here. . Authors and Contributors . Martin Weigert [1,2,*], Uwe Schmidt[1,2], Tobias Boothe[2], Andreas Müller[8,9,10], Alexandr Dibrov[1,2], Akanksha Jain[2], Benjamin Wilhelm[1,6], Deborah Schmidt[1], Coleman Broaddus[1,2], Siân Culley[4,5], Mauricio Rocha-Martins[1,2], Fabián Segovia-Miranda[2], Caren Norden[2], Ricardo Henriques[4,5], Marino Zerial[1,2], Michele Solimena[2,8,9,10], Jochen Rink[2], Pavel Tomancak[2], Loic Royer[1,2,7,*], Florian Jug[1,2,*] &amp; Eugene W. Myers[1,2,3] . [1] Center for Systems Biology Dresden (CSBD), Dresden, Germany [2] Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany [3] Department of Computer Science, Technical University Dresden [4] MRC Laboratory for Molecular Cell Biology, University College London, London, UK [5] The Francis Crick Institute, London, UK [6] University of Konstanz, Konstanz, Germany [7] CZ Biohub, San Francisco, USA [8] Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany [9] Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany [10] German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany [*] Co-corresponding authors. . Acknowledgements . The authors want to thank Philipp Keller (Janelia) who provided Drosophila data. We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke Sönmez for cell culture work. We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B). We thank Benoit Lombardot from the Scientific Computing Facility (MPI-CBG). We thank the following Services and Facilities of the MPI-CBG for their support: Computer Department, Light Microscopy Facility (LMF) and Fish Facility. This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II). M.S. was supported by the German Center for Diabetes Research (DZD e.V.). R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z). .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/care/credits",
@@ -71,11 +60,22 @@
   
 
   
+      ,"page5": {
+          "title": "Credits",
+          "content": "Credits . N2V Paper: https://arxiv.org/abs/1811.10980 . StructN2V Paper: https://ieeexplore.ieee.org/document/9098336 . How to cite: . @inproceedings{krull2019noise2void, title={Noise2void-learning denoising from single noisy images}, author={Krull, Alexander and Buchholz, Tim-Oliver and Jug, Florian}, booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages={2129--2137}, year={2019} } @inproceedings{9098336, author={C. {Broaddus} and A. {Krull} and M. {Weigert} and U. {Schmidt} and G. {Myers}}, booktitle={2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)}, title={Removing Structured Noise with Self-Supervised Blind-Spot Networks}, pages={159-163}; year={2020} } .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/credits",
+          "relUrl": "/tools/n2v/credits",
+          "date": ""
+      }
+      
+  
+
+  
       ,"page6": {
-          "title": "FAQ",
-          "content": "Frequently Asked Questions . How long do I have to train? . Longer. 100 sepochs with 300 steps each for example. . How much data do I need for training? . Don’t go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, … The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the “train on folder” command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation. . What about SEM / TEM / CMOS? . Do training and test data need to be of the same dimensions? . No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it’ll split them up again into batches internally. .",
-          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/faq",
-          "relUrl": "/tools/n2v/faq",
+          "title": "Frequently Asked Questions",
+          "content": "I have a question, but the answer is not on this page. What do I do now? . The answer is simple and universally true: ask your question on the image.sc forum. This is, by the way, also the right answer for any other question you might have in the context of bioimage analysis. The forum is very active and many intelligent and very helpful and friendly people will try to help you best they can. Enjoy! . What is training? . Artificial neural networks are designed to solve specific tasks, like denoising an image or segmenting cells. Networks need to be trained. The training process includes feeding data into the network. The network will then learn characteristics of the input and it’s weights will iteratively be adjusted to solve the problem specific to the provided input data. While training takes hours to complete, predictions are typically much, much faster. . What is prediction? . A trained network can be used to predict the correct answer for a given input. This input it typically not the same as the one used during training. Still, it is important the the inputs used during training and later during the prediction phase are of the same nature. If you train on images of cute little cats, the network will most likely not produce any useful outputs on images of membrane labeled epithelia cells. Hence, any user of neural network based methods have to be careful to not violate this important rule. . I don’t want to train (at least not for many hours). . Me neither! But chances are, that you can’t avoid this if you want to get optimal results. Typically you see after some minutes of training already if the training goes in a promising direction. But don’t be fooled! Networks learn like many of us – its fast to learn initially, but takes much, much longer to do a convincing job all the time. . Can I just use a trained network from my colleage/collaborator? . The immediate answer we give today is: NO! Don’t risk it! Once you learn how to train a network, it quickly becomes a routine job. The footnote to the initial answer is slightly more complicated. For example, there are some networks trained on a wide range of diverse data and their creators claim that you can use them on many types of inputs. While potentially true, this is not typically done on networks trained within our CSBDeep framework (StarDist being a notable exception). Still, even such networks do NOT work on all immaginable images and you better know exactly what you’re doing (or at least check all results before using the predictions for further analysis). Another case where it is ok to reuse a network is if you know with certainty that it was trained on the same kind of sample, using the same microscopy setting (same microscope, same lense, same everything). Someone in a facility might, for example, train a network that can then be reused for all data being acquired with one very specific protocol. . How can networks be exchanged? . If someone trains a network for you and now you simply want to only use this network on more (suitable) data – how would you do that? Its actually quite easy. Virtually all CSBDeep based methods can export trained networks into a ZIP file. This file can then either be loaded again in Python, or in some cases even in a suitable Fiji plugin we created. You can find more detailed information on the pages of the respective tools. . Training is unbelievable slow… could it be that something is wrong? . As we said above, predictions are quite fast and even doing them on the CPU of your computer might be fast enough to be feasible. This is not true for training and you absolutely want to perform training on a GPU (Graphics Processing Unit). It might be that your computer does not have a compatible (NVidia) GPU, or that you miss suitable drivers for the training procedure to use your GPU. If you experience your problems in Fiji, we have collected some resources for how to support GPU usage here. If this happens also within Python (Jupyter), it might be best to ask on the image.sc forum. . I made something new based on CSBDeep. Can I add this new tool onto this website? . Awesome! Kodus for doing that! Please contact anyone of us, e.g. Florian Jug or Martin Weigert, and we will be happy to chat with you about that! .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/faq",
+          "relUrl": "/faq",
           "date": ""
       }
       
@@ -83,10 +83,10 @@
 
   
       ,"page7": {
-          "title": "Frequently Asked Questions",
-          "content": "I have a question, but the answer is not on this page. What do I do now? . The answer is simple and universally true: ask your question on the image.sc forum. This is, by the way, also the right answer for any other question you might have in the context of bioimage analysis. The forum is very active and many intelligent and very helpful and friendly people will try to help you best they can. Enjoy! . What is training? . Artificial neural networks are designed to solve specific tasks, like denoising an image or segmenting cells. Networks need to be trained. The training process includes feeding data into the network. The network will then learn characteristics of the input and it’s weights will iteratively be adjusted to solve the problem specific to the provided input data. While training takes hours to complete, predictions are typically much, much faster. . What is prediction? . A trained network can be used to predict the correct answer for a given input. This input it typically not the same as the one used during training. Still, it is important the the inputs used during training and later during the prediction phase are of the same nature. If you train on images of cute little cats, the network will most likely not produce any useful outputs on images of membrane labeled epithelia cells. Hence, any user of neural network based methods have to be careful to not violate this important rule. . I don’t want to train (at least not for many hours). . Me neither! But chances are, that you can’t avoid this if you want to get optimal results. Typically you see after some minutes of training already if the training goes in a promising direction. But don’t be fooled! Networks learn like many of us – its fast to learn initially, but takes much, much longer to do a convincing job all the time. . Can I just use a trained network from my colleage/collaborator? . The immediate answer we give today is: NO! Don’t risk it! Once you learn how to train a network, it quickly becomes a routine job. The footnote to the initial answer is slightly more complicated. For example, there are some networks trained on a wide range of diverse data and their creators claim that you can use them on many types of inputs. While potentially true, this is not typically done on networks trained within our CSBDeep framework (StarDist being a notable exception). Still, even such networks do NOT work on all immaginable images and you better know exactly what you’re doing (or at least check all results before using the predictions for further analysis). Another case where it is ok to reuse a network is if you know with certainty that it was trained on the same kind of sample, using the same microscopy setting (same microscope, same lense, same everything). Someone in a facility might, for example, train a network that can then be reused for all data being acquired with one very specific protocol. . How can networks be exchanged? . If someone trains a network for you and now you simply want to only use this network on more (suitable) data – how would you do that? Its actually quite easy. Virtually all CSBDeep based methods can export trained networks into a ZIP file. This file can then either be loaded again in Python, or in some cases even in a suitable Fiji plugin we created. You can find more detailed information on the pages of the respective tools. . Training is unbelievable slow… could it be that something is wrong? . As we said above, predictions are quite fast and even doing them on the CPU of your computer might be fast enough to be feasible. This is not true for training and you absolutely want to perform training on a GPU (Graphics Processing Unit). It might be that your computer does not have a compatible (NVidia) GPU, or that you miss suitable drivers for the training procedure to use your GPU. If you experience your problems in Fiji, we have collected some resources for how to support GPU usage here. If this happens also within Python (Jupyter), it might be best to ask on the image.sc forum. . I made something new based on CSBDeep. Can I add this new tool onto this website? . Awesome! Kodus for doing that! Please contact anyone of us, e.g. Florian Jug or Martin Weigert, and we will be happy to chat with you about that! .",
-          "url": "https://csbdeep.github.io/CSBDeep_website_new/faq",
-          "relUrl": "/faq",
+          "title": "FAQ",
+          "content": "Frequently Asked Questions . How long do I have to train? . Longer. 100 sepochs with 300 steps each for example. . How much data do I need for training? . Don’t go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, … The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the “train on folder” command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation. . What about SEM / TEM / CMOS? . Do training and test data need to be of the same dimensions? . No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it’ll split them up again into batches internally. .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/faq",
+          "relUrl": "/tools/n2v/faq",
           "date": ""
       }
       
@@ -106,6 +106,17 @@
   
       ,"page9": {
           "title": "Gallery",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Segmentation Object Segmentation | . scroll to see reconstructions... Nucleus Segmentation with StarDist in 2D (DSB2018 data) . How was this done? Read more here. .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/stardist/gallery",
+          "relUrl": "/tools/stardist/gallery",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page10": {
+          "title": "Gallery",
           "content": "Gallery . Please scroll through the image area to watch all examples. . Deconvolution Microtubules | Denoising 2D SEM data | 2D Denoising human U2OS | 3D Denoising Planaria nuclei | 3D Denoising Tribolium | Isonet Drosophila | Isonet Retina | Projection Flywing | . scroll to see reconstructions... Deconvolution (Microtubules) . How was this done? Read more here. . scroll to see reconstructions... Denoising Noise2Noise with multiple noisy copies (2D SEM data) . How was this done? Read more here. . scroll to see reconstructions... Denoising in 2D (human U2OS data) . How was this done? Read more here. . scroll to see reconstructions... Denoising in 3D (Planaria nuclei) . How was this done? Read more here. . scroll to see reconstructions... Denoising in 3D (Tribolium nuclei) . How was this done? Read more here. . scroll to see reconstructions... Isotropic Reconstruction (Drosophila nuclei) . How was this done? Read more here. . scroll to see reconstructions... Isotropic Reconstruction (Zebrafish retina) . How was this done? Read more here. . scroll to see reconstructions... Surface Projection (Drosophila wing, e-cadherin) . How was this done? Read more here. .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/care/gallery",
           "relUrl": "/tools/care/gallery",
@@ -115,7 +126,18 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
+          "title": "Gallery",
+          "content": "Gallery . Please scroll through the image area to watch all examples. . Segmentation Drosophila wing | Segmentation Mouse nuclei | . scroll to see reconstructions... Denoising and Segmentation in 2D (Drosophila wing, e-cadherin) . How was this done? Read more here. . scroll to see reconstructions... Denoising and Segmentation in 2D (Mouse nuclei) . How was this done? Read more here. .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/denoiseg/gallery",
+          "relUrl": "/tools/denoiseg/gallery",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page12": {
           "title": "Impressum",
           "content": "Information in accordance with section 5 TMG . Contact . Jug Lab Center for Systems Biology Dresden . Max Planck Institute of Molecular Cell Biology and Genetics Florian Jug Pfotenhauerstr. 108 01307 Dresden Germany . Email: jug@mpi-cbg.de . Website: https://www.mpi-cbg.de/en/research-groups/current-groups/florian-jug . Provider . The provider of this Internet site within the legal meaning of the term is the registered association Max Planck Society for the Advancement of Science e.V. . Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. Hofgartenstrasse 8 80539 Munich Germany . Phone: +49 89 2108-0 Internet: www.mpg.de Email pressegv.mpg.de . Register of Societies and Associations . The Max Planck Society is registered in the Official Register of Societies and Associations at Berlin-Charlottenburg Local Court under the register number VR 13378 B. . Representatives . The Max Planck Society is legally represented by its Board of Directors, which, in turn, is represented by the President of the Society, Prof. Dr. Martin Stratmann, and by the Secretary General Rüdiger Willems. Value Added Tax Identification Number . The value added tax identification number of the Max Planck Society is DE 129517720. . Legal Structure . The Max Planck Society is a non-profit research facility which is organized as a registered association. All of the institutes and facilities of the Max Planck Society are largely autonomous in terms of organization and research, but as a rule have no legal capacity of their own. . Liability for Contents of Online Information . As the provider of contents in accordance with Section 7 Paragraph 1 of the Tele-Media Law, the Max Planck Society shall be responsible for any contents which it makes available for use in accordance with general legal provisions. The Max Planck Society makes every effort to provide timely and accurate information on this Web site. Nevertheless, errors and inaccuracies cannot be completely ruled out. Therefore, the Max Planck Society does not assume any liability for the relevance, accuracy, completeness or quality of the information provided. The Max Planck Society shall not be liable for damage of a tangible or intangible nature caused directly or indirectly through the use or failure to use the information offered and/or through the use of faulty or incomplete information unless it is verifiably culpable of intent or gross negligence. The same shall apply to any downloadable software available free of charge. The Max Planck Society reserves the right to modify, supplement, or delete any or all of the information offered on its Internet site, or to temporarily or permanently cease publication thereof without prior and separate notification. . Links to Internet Sites of Third Parties/Disclaimer . This Internet site includes links to external pages. These external links are indicated by a straight arrow. The respective provider shall be responsible for the contents of any linked external pages. In establishing the initial link, the Max Planck Society has reviewed the respective external content in order to determine whether such link entailed possible civil or criminal responsibility. However, a constant review of linked external pages is unreasonable without concrete reason to believe that a violation of the law may be involved. If the Max Planck Society determines such or it is pointed out by others that an external offer to which it is connected via a link entails civil or criminal responsibility, then the Max Planck Society will immediately eliminate any link to this offer. The Max Planck Society expressly dissociates itself from such contents. . Copyright . The layout, graphics employed and any other contents on the homepage of the CSBDeep Internet site are protected by copyright law. © MPI-CBG, Dresden. All rights reserved. .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/impressum",
@@ -126,7 +148,7 @@
   
 
   
-      ,"page11": {
+      ,"page13": {
           "title": "",
           "content": "CSBDeep - a deep learning toolbox for microscopy image restoration and analysis . Fluorescence microscopy is a key driver of discoveries in life-sciences, and the CSBDeep toolbox is offering a collection of state-of-the-art methods for content-aware image restoration and segmentation. On this website we showcase a number of real-world scenarios that might be useful in the context of your own work. Additionally, we will describe the respective methods and tools we provide and link to further resources wherever we can. . The entire CSBDeep toolbox is fully open source and intended to be used from either Python or Fiji. .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/",
@@ -137,7 +159,7 @@
   
 
   
-      ,"page12": {
+      ,"page14": {
           "title": "News",
           "content": "",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/news/",
@@ -148,7 +170,7 @@
   
 
   
-      ,"page13": {
+      ,"page15": {
           "title": "",
           "content": "Image restoration Image restoration with pairs of noisy and clean images: . Deconvolution (Microtubules) Denoising in 2D (human U2OS data) Denoising in 3D (Planaria nuclei) Denoising in 3D (Tribolium nuclei) Isotropic Reconstruction (Drosophila nuclei) Isotropic Reconstruction (Zebrafish retina) Surface Projection (Drosophila wing, e-cadherin) Image restoration with pairs of noisy images: . Denoising Noise2Noise with multiple noisy copies (2D SEM data) Image restoration with single noisy images: . Denoising Noise2Void without clean data (2D SEM data) Denoising structured noises without clean data (Convallaria) Object detection Denoising and Segmentation in 2D (Drosophila wing, e-cadherin) Denoising and Segmentation in 2D (Mouse nuclei) Nucleus Segmentation with StarDist in 2D (DSB2018 data)",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/scenarios",
@@ -169,7 +191,7 @@
   
 
   
-      ,"page18": {
+      ,"page20": {
           "title": "",
           "content": "Tools available within CSBDeep: . {% for tool in site.tools %} {{ tool.name }} &lt;span class=&quot;meta&quot;&quot;&gt; Training data: {{ tool.trainingdata }} Purpose: {{ tool.purpose }} &lt;/span&gt; {% endfor %}",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/tools",
@@ -180,7 +202,7 @@
   
 
   
-      ,"page19": {
+      ,"page21": {
           "title": "Videos",
           "content": "![]({{ ‘images/icons/videos_black.png’ | relative_url }}) Videos . {% include videos.html tool=’care’ %} .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/care/videos",
@@ -191,11 +213,33 @@
   
 
   
-      ,"page20": {
+      ,"page22": {
+          "title": "Videos",
+          "content": "![]({{ ‘images/icons/videos_black.png’ | relative_url }}) Videos . {% include videos.html tool=’stardist’ %} .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/stardist/videos",
+          "relUrl": "/tools/stardist/videos",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page23": {
           "title": "Videos",
           "content": "![]({{ ‘images/icons/videos_black.png’ | relative_url }}) Videos . {% include videos.html tool=’n2v’ %} .",
           "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/n2v/videos",
           "relUrl": "/tools/n2v/videos",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page24": {
+          "title": "Videos",
+          "content": "![]({{ ‘images/icons/videos_black.png’ | relative_url }}) Videos . {% include videos.html tool=’denoiseg’ %} .",
+          "url": "https://csbdeep.github.io/CSBDeep_website_new/tools/denoiseg/videos",
+          "relUrl": "/tools/denoiseg/videos",
           "date": ""
       }
       

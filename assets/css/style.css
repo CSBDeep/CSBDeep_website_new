@@ -645,7 +645,7 @@ footer .wrapper { background: #F9F9FA; padding: 10px 0; }
 
 footer a { color: black; }
 
-@media print, screen and (max-width: 1100px) { .logobox, .logobox2 { width: inherit; position: relative; margin-top: unset; margin-left: unset; background: none; }
+@media print, screen and (max-width: 1280px) { .logobox, .logobox2 { width: inherit; position: relative; margin-top: unset; margin-left: unset; background: none; }
   .line, article, .line.right, .line.left { min-width: inherit; align-self: stretch; padding-left: 10px; max-width: unset; align-self: stretch; }
   .wrapper { background: none; }
   .logobox2 .box { background: white; }
