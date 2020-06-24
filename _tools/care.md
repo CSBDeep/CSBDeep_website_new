@@ -18,6 +18,11 @@ Fluorescence microscopy is a key driver of discoveries in the life-sciences, wit
 [How to use the CARE networks in Fiji](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji){:target="_blank" class="external"}
 [How to use the CARE networks in KNIME](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-KNIME){:target="_blank" class="external"}
 
+## Setup and Exercises
+
+ * [Setup instructions](https://csbdeep.bioimagecomputing.com/exercises/Setup_CARE.pdf) to create a python training environment for CARE.
+ * [Exercise sheet](https://csbdeep.bioimagecomputing.com/exercises/Exercises_CARE.pdf) on how to train a CARE network (supervised and Noise2Noise).
+
 ## ![]({{ 'images/icons/source_black.png' | relative_url }}) Source code 
 
 {% include github_link.html url="CSBDeep/CSBDeep" text="CSBDeep in Python" %}
