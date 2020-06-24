@@ -25,8 +25,8 @@ The field of image denoising is currently dominated by discriminative deep learn
 While the original Noise2Void implementation can only remove pixel independent noise, it got extended to also deal with structured noise.
 Read and cite [this paper by C. Broaddus et al.](https://ieeexplore.ieee.org/document/9098336) for reference.
 
-[How to use StructN2V in Python](MISSING){:target="_blank" class="external"}
-[How to use StructN2V in Fiji](){:target="_blank" class="external"} (coming soon)
+[How to use StructN2V in Python](https://github.com/juglab/n2v/blob/master/examples/2D/structN2V_2D_synth_mem/train_and_predict.ipynb){:target="_blank" class="external"}
+[How to use StructN2V in Fiji (coming soon)](){:target="_blank" class="external"}
 
 ## ![]({{ 'images/icons/source_black.png' | relative_url }}) Source code 
 

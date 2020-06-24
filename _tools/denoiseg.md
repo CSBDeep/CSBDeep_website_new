@@ -13,7 +13,7 @@ Microscopy image analysis often requires the segmentation of objects, but traini
 
 [How to use DenoiSeg in Python](https://github.com/juglab/denoiseg/){:target="_blank" class="external"}
 [How to use DenoiSeg in Fiji](https://imagej.net/DenoiSeg){:target="_blank" class="external"}
-[How to export trained DenoiSeg networks from Python for Fiji](){:target="_blank" class="external"}
+[How to export trained DenoiSeg networks from Python for Fiji](https://imagej.net/DenoiSeg#Exporting_trained_models_from_Python_to_ImageJ_.2F_Fiji){:target="_blank" class="external"}
 
 ## Setup and Exercises
 
