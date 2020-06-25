@@ -19,4 +19,4 @@ Struct Noise2Void is an extension of [Noise2Void]() that tackles the problem of 
 This example scenario shows a 2D image from _Convallaria majalis_ acquired with a Spinning Disk confocal microscope, where horizontal stripes of noise can be observed.
 
 ## Demo
-A practical notebook example with python can be found [here](https://github.com/juglab/n2v/blob/master/examples/2D/structN2V_2D_synth_mem/train_and_predict.ipynb).
+Practical notebook examples with python can be found [here](https://github.com/juglab/n2v/tree/master/examples/2D/structN2V_2D_convallaria) and [here](https://github.com/juglab/n2v/blob/master/examples/2D/structN2V_2D_synth_mem/train_and_predict.ipynb).
